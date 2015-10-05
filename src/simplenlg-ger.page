@@ -21,8 +21,8 @@ publication:
 + Marcel Bollmann (2011). *Adapting SimpleNLG to German.* In: Proceedings of the
   13th European Workshop on Natural Language Generation (ENLG 2011),
   pp. 133--138. Nancy,
-  France. [PDF](http://www.aclweb.org/anthology/W11-2817){:.label.label-info}
-  [Poster](pub/PosterENLG.pdf){:.label.label-info}
+  France. {link_label: http://www.aclweb.org/anthology/W11-2817}
+  {link_label: {path: "pub/PosterENLG.pdf", text: "Poster"}}
 
 #### Features
 
@@ -52,7 +52,8 @@ important ones are:
 
 #### Downloads
 
-+ [SimpleNLG for German (2014-07-21)](pub/simplenlg-20140721.zip) (zip, 1.6 MB)
++ <i class="fa fa-file-pdf-o"></i>
+  [SimpleNLG for German (2014-07-21)](pub/simplenlg-20140721.zip) (zip, 1.6 MB)
 + [Quick guide](pub/quick-guide.pdf) (pdf, 173 KB)
 
 #### Questions?
