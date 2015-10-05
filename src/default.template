@@ -14,7 +14,9 @@
   <body>
     <div class="container">
       <div class="page-header">
-	<a href="{relocatable: /index.html}"><img src="{relocatable: /img/mmb-header.jpg}" alt="Marcel Bollmann" width="289" /></a>
+        <span class="page-logo">
+	  <a href="{relocatable: /index.html}"><img src="{relocatable: /img/mmb-header.jpg}" alt="Marcel Bollmann" width="289" /></a>
+        </span>
       </div>
       <div class="row">
 	<div class="col-lg-3 col-md-3 col-sm-4">

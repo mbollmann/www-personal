@@ -16,9 +16,10 @@ Bochum](http://www.rub.de/).
 My research interests include corpus linguistics, (semi-)automatic annotation,
 processing of non-standard language varieties, and natural language generation.
 
-I work in various research projects related to [computational historical
-linguistics](http://www.linguistics.rub.de/comphist/) supervised by [Stefanie
-Dipper](http://www.linguistics.rub.de/~dipper/).
+I currently work in various research projects related to [computational
+historical linguistics](http://www.linguistics.rub.de/comphist/) supervised by
+[Stefanie Dipper](http://www.linguistics.rub.de/~dipper/).
+
 
 #### Contact
 {:.pad-before}
@@ -40,3 +41,21 @@ Germany
 GB 3/144\\
 Tel: +49 (0)234 32 22481
 </address>
+
+<div class="social-icons">
+<!--
+<a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/%%%">
+  <i class="fa fa-facebook"></i>
+</a>
+-->
+<a class="btn btn-social-icon btn-github" href="https://github.com/mbollmann/">
+  <i class="fa fa-github"></i>
+</a>
+<a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/pub/marcel-bollmann/b8/238/267">
+  <i class="fa fa-linkedin"></i>
+</a>
+<a class="btn btn-social-icon btn-twitter" href="https://twitter.com/amaroid557">
+  <i class="fa fa-twitter"></i>
+</a>
+</div>
+
