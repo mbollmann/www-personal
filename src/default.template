@@ -32,13 +32,13 @@
                 template: /menu.template
               }
             }
-	    <li class="list-group-sidenav-header">Software</li>
+	    <li class="list-group-sidenav-header">Resources</li>
             {menu:
               {options:
                 {sort: in_sort,
                  siblings: true,
                  or: {descendants: true, levels: [2,100]},
-                 and: {mi: {in_menu: software}}
+                 and: {mi: {in_menu: resources}}
                 },
                 style: nested,
                 item_selected_class: active,

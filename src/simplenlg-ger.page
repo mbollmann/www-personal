@@ -1,6 +1,6 @@
 ---
 title: SimpleNLG for German
-in_menu: software
+in_menu: resources
 in_sort: 10
 blocks:
   content: {pipeline: [erb,tags,kramdown,blocks,fragments]}

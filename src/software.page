@@ -1,0 +1,73 @@
+---
+title: Software
+in_menu: resources
+in_sort: 8
+blocks:
+  content: {pipeline: [erb,tags,kramdown,blocks,fragments]}
+---
+### Software
+{: class="first-heading" id=""}
+
+Here is a list of software projects I am working on, or have worked on in the past.
+
+#### CorA (Corpus Annotator)
+
+CorA is a web-based annotation tool for word-level annotation of historical and
+other non-standard language data, implemented in PHP and JavaScript with a MySQL
+back-end.  It was originally developed to annotate historical texts for the
+[Anselm corpus](http://www.linguistics.rub.de/comphist/projects/anselm/) and the
+[reference corpus of Early New High
+German](http://www.linguistics.rub.de/comphist/projects/ref/), but has since
+been used for a variety of other projects, including the [annotation of social
+media data](https://sites.google.com/site/empirist2015/home/shared-task-data).
+
+I am currently actively maintaining CorA as its main developer.
+
+<div class="text-center">
+<a class="btn btn-default" href="http://www.linguistics.rub.de/comphist/resources/cora/">
+    <i class="fa fa-external-link"></i> Website for CorA (Corpus Annotator)
+</a>
+</div>
+
+#### Norma (Normalization Tool)
+
+Norma is a tool for automatic spelling normalization of non-standard language
+data.  It was originally developed for use with historical documents in the
+DFG-funded [Anselm
+project](http://www.linguistics.rub.de/comphist/projects/anselm/).  Originally
+written by me in Python, it was later ported to C++ (with optional bindings for
+Python 2.x) with the help of [Florian
+Petran](http://www.linguistics.rub.de/~petran).
+
+<div class="text-center">
+<a class="btn btn-default" href="http://www.linguistics.rub.de/comphist/resources/norma/">
+    <i class="fa fa-external-link"></i> Website for Norma
+</a>
+<a class="btn btn-social btn-github" href="https://github.com/fpetran/norma/">
+    <i class="fa fa-github"></i> GitHub repository for Norma
+</a>
+</div>
+
+#### SimpleNLG for German
+
+SimpleNLG for German is an adaption of the [SimpleNLG
+library](https://github.com/simplenlg/simplenlg) for natural language
+generation, written in Java.  I created it as part of my studies for my master's
+degree.  There is a [separate section dedicated to SimpleNLG for
+German](simplenlg-ger.html).
+
+<div class="text-center">
+<a class="btn btn-default" href="{relocatable: /simplenlg-ger.html}">
+    <i class="fa fa-external-link"></i> Website for SimpleNLG for German
+</a>
+</div>
+
+#### Minor projects
+
+You can [visit my GitHub profile](https://github.com/mbollmann) for other
+contributions I've made, such as:
+
++ A few small extensions for the static website generator
+  [webgen](http://webgen.gettalong.org) (which I've used to build this site and
+  others)
+
