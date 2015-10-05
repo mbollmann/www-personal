@@ -36,6 +36,12 @@ h4 {
 
 .bg-info {
   background-color: $bootstrap-info-color;
+  border-radius: 5px;
+  padding: 2px;
+
+  ul {
+    margin-bottom: 0 !important;
+  }
 }
 
 ul.publications li {
