@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <title>{title: } | Marcel Bollmann</title>
-    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Noto+Serif:700|Montserrat+Subrayada' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Noto+Serif:700' rel='stylesheet' type='text/css'>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/custom.css" rel="stylesheet" media="screen">
@@ -13,7 +13,7 @@
   <body>
     <div class="container-fluid">
       <div class="page-header">
-	<h1><a href="{relocatable: /index.html}">Marcel Bollmann</a></h1>
+	<h1><a href="{relocatable: /index.html}"><img src="{relocatable: /img/mmb-header.jpg}" alt="Marcel Bollmann" width="289" /></a></h1>
       </div>
       <div class="row-fluid">
 	<div class="span3">
