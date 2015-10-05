@@ -11,6 +11,10 @@ pub/*.pdf:
 pub/*.zip:
   handler: copy
 
+/**/*.scss:
+  pipeline: [scss,yui_compressor]
+  dest_path: <parent><basename>.css
+
 --- alcn
 /simplenlg-ger.en.html#*:
   in_menu: software
