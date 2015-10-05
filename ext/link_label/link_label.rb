@@ -14,7 +14,7 @@ module Webgen
         result << context[:config]['tag.link_label.text']
         # insert link
         result << "](" << context[:config]['tag.link_label.path']
-        result << "){:.label.label-info}"
+        result << "){:.label.label-primary}"
         result
       end
     end

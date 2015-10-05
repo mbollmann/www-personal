@@ -1,4 +1,5 @@
 @import 'bootstrap';
+@import 'bootstrap-callout';
 @import 'bootstrap-social';
 
 /*!
@@ -7,7 +8,8 @@
  * Copyright 2015 Marcel Bollmann
  */
 
-$bootstrap-info-color: #d9edf7;
+$sidebar-active-color: #08c;
+$sidebar-hover-color: #eee;
 
 body {
   font-family: 'PT Sans', 'Source Sans Pro', 'Open Sans', 'Noto Sans', Helvetica, Arial, sans-serif;
@@ -16,9 +18,7 @@ body {
 }
 
 .container-fluid {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 940px;
+  max-width: 965px;
 }
 
 h2, h3, h4, h5, h6 {
@@ -34,38 +34,62 @@ h4 {
   }
 }
 
-.bg-info {
-  background-color: $bootstrap-info-color;
-  border-radius: 5px;
-  padding: 2px;
-
-  ul {
-    margin-bottom: 0 !important;
-  }
-}
-
 ul.publications li {
   padding-bottom: 8px;
 }
 
 .page-header {
-  h1 {
-    margin-bottom: -5px;
-    font-family: 'Montserrat Subrayada', Helvetica, Arial, sans-serif;
-    font-weight: 400;
-  }
-
   a {
-    padding: 10px 20px 10px;
+    padding: 10px 20px 0px;
     margin-left: -12px;
-    font-size: 24px;
-    font-weight: 200;
-    color: #666;
-    text-shadow: 1px 1px 1px #ccc;
+    margin-bottom: -5px;
 
     &:hover {
       text-decoration: none;
     }
+  }
+}
+
+// replacement for the Bootstrap 2.x nav-list
+.list-group-sidenav-child {
+  display: block;
+  padding: 3px 15px;
+  margin: 0 -15px;
+  line-height: 20px;
+}
+
+.list-group-sidenav {
+  padding: 0 15px;
+  margin-bottom: 0;
+  margin-left: 0;
+  list-style: none;
+
+  .webgen-menu-level1, .webgen-menu-level2 {
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+
+    & > a {
+      @extend .list-group-sidenav-child;
+    }
+
+    & > a:hover {
+      text-decoration: none;
+      background-color: $sidebar-hover-color;
+    }
+
+    &.active > a, &.active > a:hover {
+      color: #fff;
+      text-shadow: 0 -1px 0 rgba(0,0,0,0.2);
+      background-color: $sidebar-active-color;
+    }
+  }
+
+  .list-group-sidenav-header {
+    @extend .webgen-menu-level1;
+    @extend .list-group-sidenav-child;
+    font-size: 11px;
+    font-weight: bold;
+    color: #999;
+    text-transform: uppercase;
   }
 }
 
@@ -80,8 +104,22 @@ p.no-space {
   display: inline;
 }
 
-.dl-horizontal dd {
-  padding-bottom: 8px;
+.dl-horizontal {
+  margin-top: 20px;
+  margin-bottom: 0px;
+
+  dd {
+    padding-bottom: 8px;
+  }
+
+  & + p {
+    margin-top: 20px;
+  }
+
+  .bg-info {
+    border-radius: 5px;
+    padding: 2px 2px 2px 20px;
+  }
 }
 
 /* First heading in a content div */
@@ -89,23 +127,10 @@ p.no-space {
   margin-top: -5px;
 }
 
-.bs-callout {
-  border-left-width: 5px;
-  border-left-style: solid;
-  border-radius: 4px;
-  padding-left: 10px;
-
-  &.bs-callout-edu {
-    border-left-color: #66A9CC;  /* #08c; */
-  }
-
-  &.bs-callout-work {
-    border-left-color: #CC8966;  /* #c40; */
-  }
+.bs-callout-edu {
+  @extend .bs-callout-primary;
 }
 
-.alert-info {
-  a {
-    color: #069;
-  }
+.bs-callout-work {
+  @extend .bs-callout-danger;
 }
