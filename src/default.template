@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <title>{title: } | Marcel Bollmann</title>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Noto+Serif:700|Montserrat+Subrayada' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/custom.css" rel="stylesheet" media="screen">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="page-header">
+	<h1><a href="{relocatable: /index.html}">Marcel Bollmann</a></h1>
+      </div>
+      <div class="row-fluid">
+	<div class="span3">
+	  <ul class="nav nav-list">
+	    <li class="nav-header">About me</li>
+            {menu:
+              {options:
+                {sort: in_sort,
+                 siblings: true,
+                 or: {descendants: true, levels: [2,100]},
+                 and: {mi: {in_menu: aboutme}}
+                },
+                style: nested,
+                item_selected_class: active,
+                template: /menu.template
+              }
+            }
+	    <li class="nav-header">Software</li>
+            {menu:
+              {options:
+                {sort: in_sort,
+                 siblings: true,
+                 or: {descendants: true, levels: [2,100]},
+                 and: {mi: {in_menu: software}}
+                },
+                style: nested,
+                item_selected_class: active,
+                template: /menu.template
+              }
+            }
+	  </ul>
+	</div>
+
+	<div class="span9">
+          <webgen:block name="content" />
+	</div>
+      </div>
+    </div>
+  </body>
+</html>

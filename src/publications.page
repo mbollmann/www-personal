@@ -1,0 +1,81 @@
+---
+title: Publications
+in_menu: aboutme
+in_sort: 20
+---
+### Publications
+{:.first-heading}
+
+#### 2015
+
++ Julia Krasselt, Marcel Bollmann, Stefanie Dipper, and Florian Petran (2015).
+  Guidelines für die Normalisierung historischer deutscher Texte / Guidelines
+  for Normalizing Historical German Texts.  *Bochumer Linguistische
+  Arbeitsberichte:* 15.
+  [PDF](http://www.linguistics.rub.de/bla/015-krasselt_etal2015.pdf){:.label.label-info}
++ Marcel Bollmann, Florian Petran, and Stefanie Dipper (2015). *Applying
+  Rule-Based Normalization to Different Types of Historical Texts -- An
+  Evaluation.* In: Zygmunt Vetulani and Joseph Mariana (Eds.), Human Language
+  Technology Challenges for Computer Science and Linguistics. 5th Language and
+  Technology Conference, LTC 2011. Revised Selected Papers, pp. 166--177.
+  Lecture Notes in Artificial Intelligence 8387.  Springer.  ([Final publication
+  available at
+  SpringerLink](http://link.springer.com/book/10.1007/978-3-319-08958-4))
+{:.publications}
+
+#### 2014
+
++ Marcel Bollmann, Florian Petran, Stefanie Dipper, and Julia Krasselt
+  (2014). *CorA: A web-based annotation tool for historical and other
+  non-standard language data.* In: Proceedings of the 8th Workshop on Language
+  Technology for Cultural Heritage, Social Sciences, and Humanities (LaTeCH),
+  pp. 86--90. Gothenburg,
+  Sweden. [PDF](http://aclweb.org/anthology//W/W14/W14-0612.pdf){:.label.label-info}
+{:.publications}
+
+#### 2013
+
++ Marcel Bollmann (2013). Automatic Normalization for Linguistic Annotation of
+  Historical Language Data.  *Bochumer Linguistische Arbeitsberichte:* 13.
+  [PDF](http://www.linguistics.rub.de/bla/013-bollmann2013.pdf){:.label.label-info}
++ Marcel Bollmann (2013). *POS Tagging for Historical Texts with Sparse Training
+  Data.* In: Proceedings of the 7th Linguistic Annotation Workshop and
+  Interoperability in Discourse (LAW7-ID), pp. 11--18. Sofia,
+  Bulgaria. [PDF](http://aclweb.org/anthology/W/W13/W13-2302.pdf){:.label.label-info}
+{:.publications}
+
+#### 2012
+
++ Marcel Bollmann (2012). *(Semi-)Automatic Normalization of Historical Texts
+  using Distance Measures and the Norma tool.* In: Proceedings of the Second
+  Workshop on Annotation of Corpora for Research in the Humanities (ACRH-2),
+  pp. 3--14. Lisbon, Portugal. [PDF](pub/acrh12.pdf){:.label.label-info}
++ Marcel Bollmann, Stefanie Dipper, Julia Krasselt, and Florian Petran
+  (2012). *Manual and Semi-automatic Normalization of Historical Spelling ---
+  Case Studies from Early New High German.* In: Proceedings of the First
+  International Workshop on Language Technology for Historical Text(s)
+  (LThist2012). Vienna, Austria. [PDF](pub/lthist12.pdf){:.label.label-info}
++ Marcel Bollmann, Stefanie Dipper, Julia Krasselt, and Florian Petran
+  (2012). *The Anselm Project: Tools for Automatic Analysis of a Parallel Corpus
+  in Early New High German.* 34. Jahrestagung der Deutschen Gesellschaft für
+  Sprachwissenschaft (DGfS). Frankfurt, Germany. [Poster
+  only](http://titus.uni-frankfurt.de/dgfs2012/poster/bollmann.pdf){:.label.label-info}
+{:.publications}
+
+#### 2011
+
++ Marcel Bollmann, Florian Petran, and Stefanie Dipper (2011). *Applying
+  Rule-Based Normalization to Different Types of Historical Texts --- An
+  Evaluation.* In: Proceedings of the 5th Language & Technology Conference:
+  Human Language Technologies as a Challenge for Computer Science and
+  Linguistics (LTC 2011). Poznan, Poland. [PDF](pub/ltc11.pdf){:.label.label-info}
++ Marcel Bollmann, Florian Petran, and Stefanie Dipper (2011). *Rule-Based
+  Normalization of Historical Texts.* In: Proceedings of the RANLP Workshop on
+  Language Technologies for Digital Humanities and Cultural Heritage,
+  pp. 34--42. Hissar, Bulgaria. [PDF](pub/ranlp11.pdf){:.label.label-info}
++ Marcel Bollmann (2011). *Adapting SimpleNLG to German.* In: Proceedings of the
+  13th European Workshop on Natural Language Generation (ENLG 2011),
+  pp. 133--138. Nancy, France.
+  [PDF](http://www.aclweb.org/anthology/W11-2817){:.label.label-info}
+  [Poster](pub/PosterENLG.pdf){:.label.label-info}
+{:.publications}

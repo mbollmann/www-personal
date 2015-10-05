@@ -1,0 +1,42 @@
+---
+title: Contact
+in_menu: aboutme
+in_sort: 10
+---
+![](img/mmb1s.jpg){:.float-right}
+{:.no-space}
+
+### About me
+{:.first-heading}
+
+I am a computational linguist, research assistant, and doctoral student at the
+[Department of Linguistics](http://www.linguistics.rub.de/) at [Ruhr-Universität
+Bochum](http://www.rub.de/).
+
+My research interests include corpus linguistics, (semi-)automatic annotation,
+processing of non-standard language varieties, and natural language generation.
+
+I work in various research projects related to [computational historical
+linguistics](http://www.linguistics.rub.de/comphist/) supervised by [Stefanie
+Dipper](http://www.linguistics.rub.de/~dipper/).
+
+#### Contact
+{:.pad-before}
+
+<span class="icon-envelope" aria-hidden="true"></span>
+[bollmann@linguistics.rub.de](mailto:bollmann@linguistics.rub.de)
+
+{::options parse_block_html="true" /}
+
+<address>
+**Mail**\\
+Sprachwissenschaftliches Institut\\
+Ruhr-Universität Bochum\\
+44780 Bochum\\
+Germany
+</address>
+<address>
+**Office**\\
+GB 3/144\\
+Tel: +49 (0)234 32 22481
+</address>

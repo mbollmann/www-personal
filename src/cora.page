@@ -1,0 +1,18 @@
+---
+title: CorA (Corpus Annotator)
+in_menu: software
+in_sort: 8
+meta:
+  robots: noindex
+---
+### CorA (Corpus Annotator)
+{: class="first-heading"}
+
+CorA is a web-based annotation tool for word-level annotation of historical and
+other non-standard language data, written in PHP and JavaScript and using a
+MySQL back-end.
+
+There is a [separate website dedicated to
+CorA](http://www.linguistics.rub.de/comphist/resources/cora/) with more
+information.
+{:.alert.alert-info}

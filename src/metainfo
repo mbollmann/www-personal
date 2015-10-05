@@ -1,0 +1,22 @@
+--- paths
+/**/*.page:
+  blocks: {defaults: {pipeline: [erb,tags,kramdown,blocks]}}
+  meta:
+    author: Marcel Bollmann
+    keywords: computational linguistics, nlp, historical linguistics, corpus linguistics, linguistics, natural language generation, personal website, academia, tools
+
+pub/*.pdf:
+  handler: copy
+
+pub/*.zip:
+  handler: copy
+
+--- alcn
+/simplenlg-ger.en.html#*:
+  in_menu: software
+
+img/:
+  proxy_path: null
+
+pub/:
+  proxy_path: null

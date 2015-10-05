@@ -1,0 +1,96 @@
+$bootstrap-info-color: #d9edf7;
+
+body {
+  font-family: 'PT Sans', 'Source Sans Pro', 'Open Sans', 'Noto Sans', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.container-fluid {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 940px;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Noto Serif', Times, serif;
+  font-weight: 700;
+}
+
+h4 {
+  margin: 20px 0 10px 0;
+
+  &.pad-before {
+    padding-top: 20px;
+  }
+}
+
+.bg-info {
+  background-color: $bootstrap-info-color;
+}
+
+ul.publications li {
+  padding-bottom: 8px;
+}
+
+.page-header {
+  h1 {
+    margin-bottom: -5px;
+    font-family: 'Montserrat Subrayada', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+  }
+
+  a {
+    padding: 10px 20px 10px;
+    margin-left: -12px;
+    font-size: 24px;
+    font-weight: 200;
+    color: #666;
+    text-shadow: 1px 1px 1px #ccc;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+img.float-right {
+  float: right;
+  padding: 25px 40px 30px;
+}
+
+p.no-space {
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+.dl-horizontal dd {
+  padding-bottom: 8px;
+}
+
+/* First heading in a content div */
+.first-heading {
+  margin-top: -5px;
+}
+
+.bs-callout {
+  border-left-width: 5px;
+  border-left-style: solid;
+  border-radius: 4px;
+  padding-left: 10px;
+
+  &.bs-callout-edu {
+    border-left-color: #66A9CC;  /* #08c; */
+  }
+
+  &.bs-callout-work {
+    border-left-color: #CC8966;  /* #c40; */
+  }
+}
+
+.alert-info {
+  a {
+    color: #069;
+  }
+}
