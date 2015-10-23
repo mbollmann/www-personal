@@ -8,6 +8,9 @@
 pub/*.pdf:
   handler: copy
 
+pub/*.txt:
+  handler: copy
+
 pub/*.zip:
   handler: copy
 
