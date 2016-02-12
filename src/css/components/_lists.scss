@@ -1,0 +1,22 @@
+/* Lists
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+ul {
+  list-style: disc outside; }
+ol {
+  list-style: decimal outside; }
+ol, ul {
+  padding-left: 0;
+  margin-top: 0;
+  margin-left: 2.5rem;
+
+  ol, ul {
+    margin: 1.2rem 0 1.2rem 4.5rem;
+    font-size: 90%; }
+  ul {
+    list-style: circle outside; }
+  ol {
+    list-style: lower-alpha outside; }
+}
+li {
+  margin-bottom: 0.5rem;
+}

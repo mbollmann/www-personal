@@ -1,10 +1,8 @@
 ---
-title: About
-main_menu: true
-main_sort: 10
+title: Foo
 ---
 
-# Lorem ipsum
+# Lorem ipsum foo foo foo
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae accumsan
 nibh. Donec vitae nisl id erat vulputate consectetur. Pellentesque et elementum

@@ -1,0 +1,61 @@
+/* Navigation
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+nav.main {
+  position: relative;
+  z-index: 2;
+  clear: both;
+
+  @media (min-width: 750px) {
+    float: right;
+    clear: none;
+  }
+
+  ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+
+    li {
+      display: inline-block;
+      margin-bottom: 0;
+
+      &.webgen-menu-item-selected,
+      &.webgen-menu-submenu-inhierarchy {
+        a {
+          color: $menu-item-active-fg-color;
+        }
+        background-color: $menu-item-active-bg-color;
+      }
+
+      a {
+        display: block;
+        color: $menu-item-color;
+        padding: 10px 6px;
+        font-family: $menu-item-font;
+        font-weight: $menu-item-font-weight;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-shadow: $menu-item-text-shadow;
+
+        /* don't use wider letter spacing on small devices, to save space */
+        @media (min-width: 750px) {
+          letter-spacing: .05rem;
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+
+        &:hover {
+          color: $menu-item-hover-fg-color;
+          background-color: $menu-item-hover-bg-color;
+        }
+
+        &::selection {
+          color: $site-header-background-color;
+          background: $site-header-font-color;
+        }
+      }
+    }
+  }
+}

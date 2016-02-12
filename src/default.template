@@ -1,59 +1,63 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{title: } | Marcel Bollmann</title>
-    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Noto+Serif:700' rel='stylesheet' type='text/css'>
-    <!-- Bootstrap -->
-    <link href="css/custom.css" rel="stylesheet" media="screen">
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  </head>
-  <body>
-    <div class="container">
-      <div class="page-header">
-        <span class="page-logo">
-	  <a href="{relocatable: /index.html}"><img src="{relocatable: /img/mmb-header.jpg}" alt="Marcel Bollmann" width="289" /></a>
-        </span>
-      </div>
-      <div class="row">
-	<div class="col-lg-3 col-md-3 col-sm-4">
-	  <ul class="list-group-sidenav">
-	    <li class="list-group-sidenav-header">About me</li>
-            {menu:
-              {options:
-                {sort: in_sort,
-                 siblings: true,
-                 or: {descendants: true, levels: [2,100]},
-                 and: {mi: {in_menu: aboutme}}
-                },
-                style: nested,
-                item_selected_class: active,
-                template: /menu.template
-              }
-            }
-	    <li class="list-group-sidenav-header">Resources</li>
-            {menu:
-              {options:
-                {sort: in_sort,
-                 siblings: true,
-                 or: {descendants: true, levels: [2,100]},
-                 and: {mi: {in_menu: resources}}
-                },
-                style: nested,
-                item_selected_class: active,
-                template: /menu.template
-              }
-            }
-	  </ul>
-	</div>
+<html lang="en">
+<!-- TODO:
 
-	<div class="col-lg-9 col-md-9 col-sm-8">
-          <webgen:block name="content" />
-	</div>
++ credit subtlepatterns.com
++ add favicon
++ add more meta tags (description, TITLE!, ...)
+
+-->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Marcel Bollmann" />
+    <!-- description, keywords, ... -->
+    <meta name="generator" content="webgen - http://webgen.gettalong.org" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Style sheets -->
+    <link rel="stylesheet" href="{relocatable: css/main.css}">
+    <!-- <link rel="icon" type="image/png" href="images/favicon.png"> -->
+
+    <!-- BEGIN FONT LOADING -->
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+    <script>
+      WebFont.load({
+        classes: false,
+        google: {
+          families: ['Lato:400,700,400italic,900', 'Fira Sans:400,700']
+        }
+      });
+      WebFont.load({
+        classes: false,
+        google: {
+          families: ['Montserrat Subrayada:400'],
+          text: 'Marcel Bollmann'
+        }
+      });
+    </script>
+    <!-- END FONT LOADING -->
+
+  </head>
+
+  <body>
+    <header>
+      <div class="h-container u-cf">
+        <h1 class="site-title"><a href="{relocatable: /index.html}">Marcel Bollmann</a></h1>
+
+        <nav class="main">
+          {menu: {options: {mi: {main_menu: true}, sort: main_sort}}}
+        </nav>
       </div>
-    </div>
+    </header>
+
+    <main class="container">
+      <section>
+        <webgen:block name="content" />
+      </section>
+    </main>
+
+    <footer>
+      Test foo bar. Yay!
+    </footer>
   </body>
 </html>

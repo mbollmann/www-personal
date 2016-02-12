@@ -19,12 +19,6 @@ pub/*.zip:
   dest_path: <parent><basename>.css
 
 --- alcn
-/software.en.html#*:
-  in_menu: resources
-
-/simplenlg-ger.en.html#*:
-  in_menu: resources
-
 img/:
   proxy_path: null
 
