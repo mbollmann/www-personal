@@ -4,12 +4,12 @@
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{title: } | Marcel Bollmann</title>
-    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Noto+Serif:700' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Noto+Serif:700' rel='stylesheet' type='text/css'>
     <!-- Bootstrap -->
     <link href="css/custom.css" rel="stylesheet" media="screen">
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="//code.jquery.com/jquery-latest.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   </head>
   <body>
     <div class="container">
