@@ -19,6 +19,21 @@ pub/*.zip:
   dest_path: <parent><basename>.css
 
 --- alcn
+blog/:
+  main_menu: true
+  main_sort: 20
+  title: Blog
+
+software/:
+  main_menu: true
+  main_sort: 30
+  title: Software
+
+publications/:
+  main_menu: true
+  main_sort: 40
+  title: Publications
+
 img/:
   proxy_path: null
 
