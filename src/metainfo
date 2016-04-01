@@ -5,6 +5,9 @@
     author: Marcel Bollmann
     keywords: computational linguistics, nlp, historical linguistics, corpus linguistics, linguistics, natural language generation, personal website, academia, tools
 
+fonts/*:
+  handler: copy
+
 pub/*.pdf:
   handler: copy
 
@@ -33,6 +36,9 @@ publications/:
   main_menu: true
   main_sort: 40
   title: Publications
+
+fonts/:
+  proxy_path: null
 
 img/:
   proxy_path: null
