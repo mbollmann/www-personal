@@ -1,84 +1,73 @@
 ---
 title: Bar
 ---
+# Publications
 
-# Lorem ipsum bar bar bar
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae accumsan
-nibh. Donec vitae nisl id erat vulputate consectetur. Pellentesque et elementum
-felis, quis faucibus ex. Praesent pellentesque velit at euismod
-lobortis. [Suspendisse eros diam,](http://www.google.de/) rutrum vitae sapien
-sit amet, lacinia blandit tortor. *Pellentesque eget consectetur dui. Ut cursus
-sapien pharetra, finibus erat at, cursus lectus.* Nam cursus lacinia diam id
-tristique. Donec sagittis sodales erat, **nec semper ante.** Cras vel egestas
-ipsum. Phasellus aliquet mi et nisl rhoncus porta.
+#### 2015
 
-## Etiam eleifend
++ Julia Krasselt, Marcel Bollmann, Stefanie Dipper, and Florian Petran (2015).
+  [Guidelines für die Normalisierung historischer deutscher Texte / Guidelines for Normalizing Historical German Texts.](http://www.linguistics.rub.de/bla/015-krasselt_etal2015.pdf)
+  *Bochumer Linguistische Arbeitsberichte:* 15.
++ Marcel Bollmann, Florian Petran, and Stefanie Dipper (2015). *Applying
+  Rule-Based Normalization to Different Types of Historical Texts -- An
+  Evaluation.* In: Zygmunt Vetulani and Joseph Mariana (Eds.), Human Language
+  Technology Challenges for Computer Science and Linguistics. 5th Language and
+  Technology Conference, LTC 2011. Revised Selected Papers, pp. 166--177.
+  Lecture Notes in Artificial Intelligence 8387.  Springer.  ([Final publication
+  available at
+  SpringerLink](http://link.springer.com/book/10.1007/978-3-319-08958-4))
+{:.publications}
 
-Etiam eleifend enim neque, non vestibulum lectus euismod feugiat. Cras ante
-nisi, sollicitudin non vehicula non, aliquam non tortor. Nullam augue nisl,
-dignissim sit amet quam id, congue finibus ante. Praesent sit amet risus
-sodales, auctor velit vitae, aliquet nibh. `Curabitur fringilla` sapien eget
-felis ultricies, vitae luctus mi aliquet. Nam lacinia sodales auctor.
+#### 2014
 
-~~~
-@media (min-width: 400px) {
-  .container {
-    width: 85%;
-    padding: 0; }
-}
-~~~
++ Marcel Bollmann, Florian Petran, Stefanie Dipper, and Julia Krasselt
+  (2014). [*CorA: A web-based annotation tool for historical and other non-standard language data.*](http://aclweb.org/anthology//W/W14/W14-0612.pdf)
+  In: Proceedings of the 8th Workshop on Language Technology for Cultural
+  Heritage, Social Sciences, and Humanities (LaTeCH), pp. 86--90. Gothenburg,
+  Sweden.
+{:.publications}
 
-Vestibulum a risus dignissim, tempus leo eget, egestas diam. Mauris posuere mi
-ut ligula ornare, in hendrerit dolor semper. Sed vel laoreet sem.
+#### 2013
 
-### Aenean eget
++ Marcel Bollmann
+  (2013). [Automatic Normalization for Linguistic Annotation of Historical Language Data.](http://www.linguistics.rub.de/bla/013-bollmann2013.pdf)
+  *Bochumer Linguistische Arbeitsberichte:* 13.
++ Marcel Bollmann
+  (2013). [*POS Tagging for Historical Texts with Sparse Training Data.*](http://aclweb.org/anthology/W/W13/W13-2302.pdf)
+  In: Proceedings of the 7th Linguistic Annotation Workshop and Interoperability
+  in Discourse (LAW7-ID), pp. 11--18. Sofia, Bulgaria.
+{:.publications}
 
-Aenean eget est fringilla, fermentum massa non, aliquet ex. Duis condimentum
-tristique orci sed dictum. Morbi nibh nisi, lacinia vitae tellus eu, consequat
-rutrum justo. Pellentesque sodales placerat ante et cursus. Nam vitae orci
-rhoncus, fermentum ante in, euismod felis. Ut erat turpis, euismod nec ante sit
-amet, pulvinar vulputate nisi.
+#### 2012
 
-> Proin ut enim ultricies ante sodales ultrices. Proin egestas semper magna eget
-> pellentesque. Nulla ut augue maximus erat egestas mattis id eu libero.
++ Marcel Bollmann
+  (2012). [*(Semi-)Automatic Normalization of Historical Texts using Distance Measures and the Norma tool.*](/pub/acrh12.pdf)
+  In: Proceedings of the Second Workshop on Annotation of Corpora for Research
+  in the Humanities (ACRH-2), pp. 3--14. Lisbon, Portugal.
++ Marcel Bollmann, Stefanie Dipper, Julia Krasselt, and Florian Petran
+  (2012). [*Manual and Semi-automatic Normalization of Historical Spelling --- Case Studies from Early New High German.*](/pub/lthist12.pdf)
+  In: Proceedings of the First International Workshop on Language Technology for
+  Historical Text(s) (LThist2012). Vienna, Austria.
++ Marcel Bollmann, Stefanie Dipper, Julia Krasselt, and Florian Petran
+  (2012). [*The Anselm Project: Tools for Automatic Analysis of a Parallel Corpus in Early New High German.*](http://titus.uni-frankfurt.de/dgfs2012/poster/bollmann.pdf) 34. Jahrestagung
+  der Deutschen Gesellschaft für Sprachwissenschaft (DGfS). Frankfurt,
+  Germany. (Poster only)
+{:.publications}
 
-Aliquam sed est rhoncus, tincidunt risus feugiat, sagittis ex. In sit amet ipsum
-nec risus porta accumsan vitae vitae dui. Phasellus semper varius aliquam. Proin
-auctor odio in felis lacinia, et feugiat ex convallis. Nulla aliquet facilisis
-imperdiet. Nullam ac porta libero. Etiam at lorem in lorem tempus eleifend ac ac
-nibh.
+#### 2011
 
-#### Curabitur sed
-
-Curabitur sed augue sit amet nulla aliquet facilisis. Cras placerat laoreet
-blandit. Sed vitae consequat urna. Praesent commodo auctor nisl. In interdum
-ligula at leo semper venenatis. Donec rutrum dictum elementum. Nam ut arcu
-lectus. Aliquam pulvinar, lorem vel vulputate consequat, libero turpis varius
-ante, vitae sodales urna sapien id dolor.
-
-+ Praesent fermentum at odio quis vehicula.
-+ Morbi vulputate purus velit, eget semper tellus malesuada pulvinar.
-    + Duis non neque a nunc fringilla accumsan.
-    + Aliquam erat volutpat.
-+ Morbi eget nibh suscipit, hendrerit odio non, fermentum orci.
-
-Sed tellus diam, dictum tristique mi volutpat, posuere ultricies justo. Maecenas
-vitae ipsum tempor, sagittis nulla non, efficitur mauris. Proin dapibus risus
-arcu, quis faucibus magna venenatis vitae.
-
-- - -
-
-##### Proin tempor purus
-
-Proin tempor purus ut dolor ornare porttitor. Phasellus vel massa id odio congue
-ullamcorper. Curabitur rutrum lectus ullamcorper facilisis
-ullamcorper. Pellentesque eget metus est. Mauris sodales varius nulla id
-sagittis.
-
-###### Vivamus tincidunt suscipit diam
-
-Vivamus tincidunt suscipit diam. Suspendisse varius eros id elit
-pharetra, at molestie diam maximus. Sed varius, orci id convallis auctor, lacus
-sapien vehicula est, et varius tortor diam non risus. Proin ultrices lacinia
-dui. Aenean id ultrices libero.
++ Marcel Bollmann, Florian Petran, and Stefanie Dipper
+  (2011). [*Applying Rule-Based Normalization to Different Types of Historical Texts --- An Evaluation.*](/pub/ltc11.pdf)
+  In: Proceedings of the 5th Language & Technology Conference: Human Language
+  Technologies as a Challenge for Computer Science and Linguistics (LTC
+  2011). Poznan, Poland.
++ Marcel Bollmann, Florian Petran, and Stefanie Dipper
+  (2011). [*Rule-Based Normalization of Historical Texts.*](/pub/ranlp11.pdf)
+  In: Proceedings of the RANLP Workshop on Language Technologies for Digital
+  Humanities and Cultural Heritage, pp. 34--42. Hissar, Bulgaria.
++ Marcel Bollmann
+  (2011). [*Adapting SimpleNLG to German.*](http://www.aclweb.org/anthology/W11-2817)
+  In: Proceedings of the 13th European Workshop on Natural Language Generation
+  (ENLG 2011), pp. 133--138. Nancy, France. ([Poster](/pub/PosterENLG.pdf))
+{:.publications}
