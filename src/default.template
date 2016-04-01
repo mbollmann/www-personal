@@ -59,7 +59,13 @@
     </main>
 
     <footer>
-      Test foo bar. Yay!
+      <span class="social-links float-right">
+        <a href="https://github.com/mbollmann/"><i class="fa fa-github"></i></a>
+        <a href="https://www.linkedin.com/pub/marcel-bollmann/b8/238/267"><i class="fa fa-linkedin-square"></i></a>
+        <a href="https://twitter.com/amaroid557"><i class="fa fa-twitter"></i></a>
+      </span>
+      &copy; 2016 Marcel Bollmann &mdash; <i class="fa fa-envelope-o"></i> marcel@boll<span class="obfuscate">babanga</span>man<span class="obfuscate">.@...___@.</span>n.me<br />
+      <a href="{relocatable: /impressum.html}">Impressum gemäß § 5 TMG / Legal disclosure in accordance with § 5 TMG</a>
     </footer>
   </body>
 </html>
