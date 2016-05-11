@@ -1,0 +1,10 @@
+---
+template: default.template
+--- name:content
+<section class="nine columns">
+  <webgen:block name="content" />
+</section>
+
+<aside class="three columns">
+  <p>Here be dragons.</p>
+</aside>

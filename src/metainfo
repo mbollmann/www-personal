@@ -23,7 +23,7 @@ pub/*.zip:
 
 --- alcn
 blog/:
-  main_menu: true
+  main_menu: false
   main_sort: 20
   title: Blog
 
