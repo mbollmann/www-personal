@@ -17,6 +17,37 @@ I currently work in various research projects related to
 [computational historical linguistics][comphist] supervised by
 [Stefanie Dipper][].
 
+On this page, you can find...
+
+[<button class="button-primary">Software I've worked on</button>](/software/)
+[<button class="button-primary">My academic publications</button>](/publications/)
+[<button class="button-primary">More about me</button>](/cv/)
+{:.button-container}
+
+
+### Contact
+
+<i class="fa fa-envelope-o"></i> [bollmann@linguistics.rub.de](mailto:bollmann@linguistics.rub.de) \\
+<i class="fa fa-key"></i> [PGP Public Key](/pub/bollmann@linguistics.rub.de_public_key.txt)
+
+{::options parse_block_html="true" /}
+
+<div class="side-by-side">
+  <address>
+  **Mail**\\
+  Sprachwissenschaftliches Institut\\
+  Ruhr-Universität Bochum\\
+  44780 Bochum\\
+  Germany
+  </address>
+
+  <address>
+  **Office**\\
+  GB 3/144\\
+  <i class="fa fa-phone"></i> +49 (0)234 32 22481
+  </address>
+</div>
+
 
 [Department of Linguistics]: https://www.linguistics.rub.de/
 [RUB]: http://www.rub.de/

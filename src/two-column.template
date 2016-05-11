@@ -6,5 +6,18 @@ template: default.template
 </section>
 
 <aside class="three columns">
+  <nav class="secondary">
+    {menu:
+      {options:
+        {sort: in_sort,
+         siblings: true,
+         or: {descendants: true, levels: [3,100]},
+         and: {mi: {in_menu: true}}
+         },
+        style: nested
+      }
+    }
+  </nav>
+
   <p>Here be dragons.</p>
 </aside>

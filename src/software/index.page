@@ -1,85 +1,64 @@
 ---
-title: Bar
+title: Software
 template: /two-column.template
----
+in_menu: true
+in_sort: 1
+--- name:content pipeline:erb,tags,kramdown,blocks,fragments
+{::options parse_block_html="true" /}
 
-# Lorem ipsum bar bar bar
+# Software
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae accumsan
-nibh. Donec vitae nisl id erat vulputate consectetur. Pellentesque et elementum
-felis, quis faucibus ex. Praesent pellentesque velit at euismod
-lobortis. [Suspendisse eros diam,](http://www.google.de/) rutrum vitae sapien
-sit amet, lacinia blandit tortor. *Pellentesque eget consectetur dui. Ut cursus
-sapien pharetra, finibus erat at, cursus lectus.* Nam cursus lacinia diam id
-tristique. Donec sagittis sodales erat, **nec semper ante.** Cras vel egestas
-ipsum. Phasellus aliquet mi et nisl rhoncus porta.
+This is a list of software projects I am working on, or have worked on in the
+past.
 
-## Etiam eleifend
+## CorA (Corpus Annotator)
 
-Etiam eleifend enim neque, non vestibulum lectus euismod feugiat. Cras ante
-nisi, sollicitudin non vehicula non, aliquam non tortor. Nullam augue nisl,
-dignissim sit amet quam id, congue finibus ante. Praesent sit amet risus
-sodales, auctor velit vitae, aliquet nibh. `Curabitur fringilla` sapien eget
-felis ultricies, vitae luctus mi aliquet. Nam lacinia sodales auctor.
+CorA is a web-based annotation tool for word-level annotation of historical and
+other non-standard language data, implemented in PHP and JavaScript with a MySQL
+back-end. It was originally developed to annotate historical texts for the
+[Anselm corpus][Anselm] and the
+[reference corpus of Early New High German][ReF], but has since been used for a
+variety of other projects, including the
+[annotation of social media data][EmpiriST].
 
-~~~
-@media (min-width: 400px) {
-  .container {
-    width: 85%;
-    padding: 0; }
-}
-~~~
+I am currently actively maintaining CorA as its main developer.
 
-Vestibulum a risus dignissim, tempus leo eget, egestas diam. Mauris posuere mi
-ut ligula ornare, in hendrerit dolor semper. Sed vel laoreet sem.
+[<button class="button">Website</button>][CorA]
+{:.button-container}
 
-### Aenean eget
+## Norma (Normalization Tool)
 
-Aenean eget est fringilla, fermentum massa non, aliquet ex. Duis condimentum
-tristique orci sed dictum. Morbi nibh nisi, lacinia vitae tellus eu, consequat
-rutrum justo. Pellentesque sodales placerat ante et cursus. Nam vitae orci
-rhoncus, fermentum ante in, euismod felis. Ut erat turpis, euismod nec ante sit
-amet, pulvinar vulputate nisi.
+Norma is a tool for automatic spelling normalization of non-standard language
+data. It was originally developed for use with historical documents in the
+DFG-funded [Anselm project][Anselm].  Originally written by me in Python, it was
+later ported to C++ (with optional bindings for Python 2.x) with the help of
+[Florian Petran](http://www.linguistics.rub.de/~petran).
 
-> Proin ut enim ultricies ante sodales ultrices. Proin egestas semper magna eget
-> pellentesque. Nulla ut augue maximus erat egestas mattis id eu libero.
+[<button class="button">Website</button>][Norma]
+[<button class="button"><i class="fa fa-github"></i> GitHub repository</button>][Norma-GitHub]
+{:.button-container}
 
-Aliquam sed est rhoncus, tincidunt risus feugiat, sagittis ex. In sit amet ipsum
-nec risus porta accumsan vitae vitae dui. Phasellus semper varius aliquam. Proin
-auctor odio in felis lacinia, et feugiat ex convallis. Nulla aliquet facilisis
-imperdiet. Nullam ac porta libero. Etiam at lorem in lorem tempus eleifend ac ac
-nibh.
+## SimpleNLG for German
 
-#### Curabitur sed
+SimpleNLG for German is an adaption of the [SimpleNLG library][SimpleNLG] for
+natural language generation, written in Java.  I created it as part of my
+studies for my master's degree.
 
-Curabitur sed augue sit amet nulla aliquet facilisis. Cras placerat laoreet
-blandit. Sed vitae consequat urna. Praesent commodo auctor nisl. In interdum
-ligula at leo semper venenatis. Donec rutrum dictum elementum. Nam ut arcu
-lectus. Aliquam pulvinar, lorem vel vulputate consequat, libero turpis varius
-ante, vitae sodales urna sapien id dolor.
+## Minor projects
 
-+ Praesent fermentum at odio quis vehicula.
-+ Morbi vulputate purus velit, eget semper tellus malesuada pulvinar.
-    + Duis non neque a nunc fringilla accumsan.
-    + Aliquam erat volutpat.
-+ Morbi eget nibh suscipit, hendrerit odio non, fermentum orci.
+You can [visit my GitHub profile][GitHub] for other contributions I've made, such as:
 
-Sed tellus diam, dictum tristique mi volutpat, posuere ultricies justo. Maecenas
-vitae ipsum tempor, sagittis nulla non, efficitur mauris. Proin dapibus risus
-arcu, quis faucibus magna venenatis vitae.
++ A few small extensions for the static website generator [webgen][] (which I've
+  used to build this site, and a few others)
 
-- - -
 
-##### Proin tempor purus
+[Anselm]: https://www.linguistics.rub.de/comphist/projects/anselm/
+[ReF]: https://www.linguistics.rub.de/comphist/projects/ref/
+[EmpiriST]: https://sites.google.com/site/empirist2015/home/shared-task-data
+[SimpleNLG]: https://github.com/simplenlg/simplenlg
+[webgen]: http://webgen.gettalong.org/
 
-Proin tempor purus ut dolor ornare porttitor. Phasellus vel massa id odio congue
-ullamcorper. Curabitur rutrum lectus ullamcorper facilisis
-ullamcorper. Pellentesque eget metus est. Mauris sodales varius nulla id
-sagittis.
-
-###### Vivamus tincidunt suscipit diam
-
-Vivamus tincidunt suscipit diam. Suspendisse varius eros id elit
-pharetra, at molestie diam maximus. Sed varius, orci id convallis auctor, lacus
-sapien vehicula est, et varius tortor diam non risus. Proin ultrices lacinia
-dui. Aenean id ultrices libero.
+[CorA]: http://www.linguistics.rub.de/comphist/resources/cora/
+[Norma]: http://www.linguistics.rub.de/comphist/resources/norma/
+[Norma-GitHub]: https://github.com/comphist/norma/
+[GitHub]: https://github.com/mbollmann/

@@ -1,0 +1,66 @@
+---
+title: SimpleNLG for German
+template: /two-column.template
+in_menu: true
+in_sort: 9
+---
+
+# SimpleNLG for German
+
+In 2010/2011, I worked on an adaption of the SimpleNLG library for German as
+part of my studies for my master's degree. Since then, I have no longer been
+working in the field of natural language generation. Unfortunately, this means
+that my adaption has never quite been finished and "polished up" for release; I
+still decided to provide what I have for other people who might potentially be
+interested in it.
+
+If you use SimpleNLG for German in your own work, please cite the following
+publication:
+
++ {bib_item: Bollmann2011}
+
+## Features
+
+SimpleNLG is a Java library for generation of grammatically correct
+sentences. Originally developed for English, I adapted it for German. For more
+information, please refer to the [SimpleNLG tutorial][SimpleNLG-Tutorial].
+
+Grammatical features covered by this adaption include, among others:
+
++ free ordering of sentence constituents, to account for the more flexible word
+  order of German;
++ clusters of modal verbs; and
++ support for relative clauses and relative clause extraposition.
+
+## Limitations
+
+As I'm not able to devote much time to the development of SimpleNLG for German
+anymore, this release still has some considerable limitations. The most
+important ones are:
+
++ it is based on the older version 3 architecture of SimpleNLG, which is now
+  obsolete and also has a more restrictive license;
++ there is no proper lexicon &ndash; only a "toy lexicon" of around 100 entries
+  is available &ndash; and lexicon lookup is quite slow and inefficient; and
++ it hasn't been thoroughly tested for bugs.
+
+## Downloads
+
++ [SimpleNLG for German (2014-07-21)](/pub/simplenlg-20140721.zip) (zip, 1.6 MB)
++ [Quick guide](/pub/quick-guide.pdf) (pdf, 173 KB)
+
+## Questions?
+
+If you have any questions specific to my adaption of SimpleNLG for German,
+please feel free to contact me. For questions about the original SimpleNLG,
+please refer to the [SimpleNLG discussion list][SimpleNLG-Group] instead.
+
+Finally, do not hesitate to get in touch with me if you would like to continue
+or contribute to the development of this software package (e.g., porting it to
+the newer version 4 architecture). I will do my best to assist you as much as
+time allows.
+
+
+[SimpleNLG]: https://github.com/simplenlg/simplenlg
+[SimpleNLG-Tutorial]: https://github.com/simplenlg/simplenlg/wiki/Section-0-%E2%80%93-SimpleNLG-Tutorial
+[SimpleNLG-Group]: http://groups.google.com/group/simplenlg
