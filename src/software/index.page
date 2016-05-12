@@ -1,30 +1,36 @@
 ---
 title: Software
-template: /two-column.template
+template: /blocks.template
 in_menu: true
 in_sort: 1
---- name:content pipeline:erb,tags,kramdown,blocks,fragments
-{::options parse_block_html="true" /}
-
+--- name:content
 # Software
 
 This is a list of software projects I am working on, or have worked on in the
 past.
 
+--- name:cell-1l
+{::options parse_block_html="true" /}
+
 ## CorA (Corpus Annotator)
 
 CorA is a web-based annotation tool for word-level annotation of historical and
-other non-standard language data, implemented in PHP and JavaScript with a MySQL
-back-end. It was originally developed to annotate historical texts for the
-[Anselm corpus][Anselm] and the
+other non-standard language data.  It was originally developed to annotate
+historical texts for the [Anselm corpus][Anselm] and the
 [reference corpus of Early New High German][ReF], but has since been used for a
 variety of other projects, including the
 [annotation of social media data][EmpiriST].
 
-I am currently actively maintaining CorA as its main developer.
-
 [<button class="button">Website</button>][CorA]
 {:.button-container}
+
+[Anselm]: https://www.linguistics.rub.de/comphist/projects/anselm/
+[ReF]: https://www.linguistics.rub.de/comphist/projects/ref/
+[EmpiriST]: https://sites.google.com/site/empirist2015/home/shared-task-data
+[CorA]: http://www.linguistics.rub.de/comphist/resources/cora/
+
+--- name:cell-1r
+{::options parse_block_html="true" /}
 
 ## Norma (Normalization Tool)
 
@@ -38,11 +44,25 @@ later ported to C++ (with optional bindings for Python 2.x) with the help of
 [<button class="button"><i class="fa fa-github"></i> GitHub repository</button>][Norma-GitHub]
 {:.button-container}
 
+[Anselm]: https://www.linguistics.rub.de/comphist/projects/anselm/
+[Norma]: http://www.linguistics.rub.de/comphist/resources/norma/
+[Norma-GitHub]: https://github.com/comphist/norma/
+
+--- name:cell-2l
+{::options parse_block_html="true" /}
+
 ## SimpleNLG for German
 
 SimpleNLG for German is an adaption of the [SimpleNLG library][SimpleNLG] for
 natural language generation, written in Java.  I created it as part of my
 studies for my master's degree.
+
+[<button class="button">More information</button>](simplenlg.html)
+{:.button-container}
+
+[SimpleNLG]: https://github.com/simplenlg/simplenlg
+
+--- name:cell-2r
 
 ## Minor projects
 
@@ -51,14 +71,5 @@ You can [visit my GitHub profile][GitHub] for other contributions I've made, suc
 + A few small extensions for the static website generator [webgen][] (which I've
   used to build this site, and a few others)
 
-
-[Anselm]: https://www.linguistics.rub.de/comphist/projects/anselm/
-[ReF]: https://www.linguistics.rub.de/comphist/projects/ref/
-[EmpiriST]: https://sites.google.com/site/empirist2015/home/shared-task-data
-[SimpleNLG]: https://github.com/simplenlg/simplenlg
 [webgen]: http://webgen.gettalong.org/
-
-[CorA]: http://www.linguistics.rub.de/comphist/resources/cora/
-[Norma]: http://www.linguistics.rub.de/comphist/resources/norma/
-[Norma-GitHub]: https://github.com/comphist/norma/
 [GitHub]: https://github.com/mbollmann/

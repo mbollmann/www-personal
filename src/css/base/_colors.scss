@@ -24,7 +24,7 @@ $site-header-text-shadow: none;
 
 $nav-background-color: transparent;
 $menu-item-color: $color-wild-sand;
-$menu-item-active-fg-color: $color-blueish-ming;
+$menu-item-active-fg-color: darken($color-blueish-ming, 14%);
 $menu-item-active-bg-color: mix($color-blueish-ming, $color-wild-sand, 65%);
 $menu-item-hover-fg-color: darken($color-blueish-ming, 10%);
 $menu-item-hover-bg-color: mix($color-blueish-ming, $color-wild-sand, 30%);

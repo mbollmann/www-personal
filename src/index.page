@@ -17,13 +17,6 @@ I currently work in various research projects related to
 [computational historical linguistics][comphist] supervised by
 [Stefanie Dipper][].
 
-On this page, you can find...
-
-[<button class="button-primary">Software I've worked on</button>](/software/)
-[<button class="button-primary">My academic publications</button>](/publications/)
-[<button class="button-primary">More about me</button>](/cv/)
-{:.button-container}
-
 
 ### Contact
 
@@ -43,7 +36,7 @@ On this page, you can find...
 
   <address>
   **Office**\\
-  GB 3/144\\
+  <i class="fa fa-home"></i> GB 3/144\\
   <i class="fa fa-phone"></i> +49 (0)234 32 22481
   </address>
 </div>

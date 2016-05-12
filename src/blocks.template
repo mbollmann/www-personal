@@ -1,0 +1,24 @@
+---
+template: default.template
+--- name:content
+<section>
+  <webgen:block name="content" />
+</section>
+
+<div class="row">
+  <section class="six columns">
+    <webgen:block name="cell-1l" notfound="ignore" />
+  </section>
+  <section class="six columns">
+    <webgen:block name="cell-1r" notfound="ignore" />
+  </section>
+</div>
+
+<div class="row">
+  <section class="six columns">
+    <webgen:block name="cell-2l" notfound="ignore" />
+  </section>
+  <section class="six columns">
+    <webgen:block name="cell-2r" notfound="ignore" />
+  </section>
+</div>

@@ -1,23 +1,26 @@
 ---
 title: SimpleNLG for German
-template: /two-column.template
+template: /blocks.template
 in_menu: true
 in_sort: 9
 ---
-
 # SimpleNLG for German
 
-In 2010/2011, I worked on an adaption of the SimpleNLG library for German as
-part of my studies for my master's degree. Since then, I have no longer been
-working in the field of natural language generation. Unfortunately, this means
-that my adaption has never quite been finished and "polished up" for release; I
-still decided to provide what I have for other people who might potentially be
-interested in it.
+In 2010/2011, I worked on an adaption of the [SimpleNLG library][SimpleNLG] for
+German as part of my studies for my master's degree. Since then, I have no
+longer been working in the field of natural language generation. Unfortunately,
+this means that my adaption has never quite been finished and "polished up" for
+release; I still decided to provide what I have for other people who might
+potentially be interested in it.
 
 If you use SimpleNLG for German in your own work, please cite the following
 publication:
 
 + {bib_item: Bollmann2011}
+
+[SimpleNLG]: https://github.com/simplenlg/simplenlg
+
+--- name:cell-1l
 
 ## Features
 
@@ -32,6 +35,10 @@ Grammatical features covered by this adaption include, among others:
 + clusters of modal verbs; and
 + support for relative clauses and relative clause extraposition.
 
+[SimpleNLG-Tutorial]: https://github.com/simplenlg/simplenlg/wiki/Section-0-%E2%80%93-SimpleNLG-Tutorial
+
+--- name:cell-1r
+
 ## Limitations
 
 As I'm not able to devote much time to the development of SimpleNLG for German
@@ -44,10 +51,14 @@ important ones are:
   is available &ndash; and lexicon lookup is quite slow and inefficient; and
 + it hasn't been thoroughly tested for bugs.
 
+--- name:cell-2l
+
 ## Downloads
 
 + [SimpleNLG for German (2014-07-21)](/pub/simplenlg-20140721.zip) (zip, 1.6 MB)
 + [Quick guide](/pub/quick-guide.pdf) (pdf, 173 KB)
+
+--- name:cell-2r
 
 ## Questions?
 
@@ -60,7 +71,4 @@ or contribute to the development of this software package (e.g., porting it to
 the newer version 4 architecture). I will do my best to assist you as much as
 time allows.
 
-
-[SimpleNLG]: https://github.com/simplenlg/simplenlg
-[SimpleNLG-Tutorial]: https://github.com/simplenlg/simplenlg/wiki/Section-0-%E2%80%93-SimpleNLG-Tutorial
 [SimpleNLG-Group]: http://groups.google.com/group/simplenlg

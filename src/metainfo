@@ -4,6 +4,10 @@
   meta:
     author: Marcel Bollmann
     keywords: computational linguistics, nlp, historical linguistics, corpus linguistics, linguistics, natural language generation, personal website, academia, tools
+  template: /one-column.template
+
+/**/.htaccess:
+  handler: copy
 
 fonts/*:
   handler: copy

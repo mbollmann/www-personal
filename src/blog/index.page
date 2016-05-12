@@ -1,5 +1,7 @@
 ---
 title: Foo
+meta:
+  robots: noindex
 ---
 
 # Lorem ipsum foo foo foo
