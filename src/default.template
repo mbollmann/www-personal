@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- TODO:
+  <!-- Background pattern based on the pattern "Type" from subtlepatterns.com,
+       with colors inverted and slightly modified by myself -->
 
-+ credit subtlepatterns.com
-+ add favicon
-+ add more meta tags (description, TITLE!, ...)
-
--->
+  <!-- TODO:
+         + add favicon
+         + add more meta tags?
+  -->
   <head>
     <meta charset="utf-8" />
     <meta name="author" content="Marcel Bollmann" />
@@ -62,9 +62,10 @@
         <a href="https://www.linkedin.com/pub/marcel-bollmann/b8/238/267"><i class="fa fa-linkedin-square"></i></a>
         <a href="https://twitter.com/mmbollmann"><i class="fa fa-twitter"></i></a>
       </span>
-      &copy; 2016 Marcel Bollmann &mdash; <i class="fa fa-envelope-o"></i> marcel@boll<span class="obfuscate">babanga</span>man<span class="obfuscate">.@...___@.</span>n.me<br />
+      &copy; 2016 Marcel Bollmann &mdash; <i class="fa fa-envelope-o"></i> bollmann@ling<span class="obfuscate">babanga</span>uistic<span class="obfuscate">.@...___@.</span>s.rub.de<br />
       <span class="legal-notice">
-        <a href="{relocatable: /impressum.html}">Impressum gemäß § 5 TMG / Legal disclosure in accordance with § 5 TMG</a>
+        <a href="https://www.linguistics.rub.de/kontakt/impressum.shtml">Impressum gemäß § 5 TMG / Legal disclosure in accordance with § 5 TMG</a>
+        <!-- <a href="{relocatable: /impressum.html}">Impressum gemäß § 5 TMG / Legal disclosure in accordance with § 5 TMG</a> -->
       </span>
     </footer>
   </body>
