@@ -9,7 +9,7 @@ $color-wild-sand: #F4F4F4;
 $color-1-high: #C3D6E3;
 
 $text-color: #222;
-$link-color: $color-blueish-ming;
+$link-color: lighten($color-blueish-ming, 8%);
 $link-hover-color: lighten($color-blueish-ming, 20%);
 
 $button-primary-color: $color-blueish-ming;
