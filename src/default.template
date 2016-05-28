@@ -1,16 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <!-- Background pattern based on the pattern "Type" from subtlepatterns.com,
-       with colors inverted and slightly modified by myself -->
-
-  <!-- TODO:
-         + add favicon
-         + add more meta tags?
-  -->
+       with colors inverted and slightly modified by Marcel Bollmann -->
   <head>
     <meta charset="utf-8" />
     <meta name="author" content="Marcel Bollmann" />
-    <!-- description, keywords, ... -->
     <meta name="generator" content="webgen - http://webgen.gettalong.org" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 

@@ -1,1 +1,4 @@
-RedirectMatch 301 ^(.*)/simplenlg-ger.html$ $1/software/simplenlg.html
+RewriteEngine On
+RewriteRule ^/simplenlg-ger.html$ software/simplenlg.html [R=301]
+RewriteCond %{HTTP_HOST} !=marcel.bollmann.me
+RewriteRule (.*) http://marcel.bollmann.me/$1 [R=302,L]
