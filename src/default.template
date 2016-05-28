@@ -63,8 +63,7 @@
       </span>
       &copy; 2016 Marcel Bollmann &mdash; <i class="fa fa-envelope-o"></i> bollmann@ling<span class="obfuscate">babanga</span>uistic<span class="obfuscate">.@...___@.</span>s.rub.de<br />
       <span class="legal-notice">
-        <a href="https://www.linguistics.rub.de/kontakt/impressum.shtml">Impressum gemäß § 5 TMG / Legal disclosure in accordance with § 5 TMG</a>
-        <!-- <a href="{relocatable: /impressum.html}">Impressum gemäß § 5 TMG / Legal disclosure in accordance with § 5 TMG</a> -->
+        <a href="{relocatable: /impressum.html}">Impressum / Legal disclosure</a>
       </span>
     </footer>
   </body>

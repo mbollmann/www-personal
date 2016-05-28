@@ -1,5 +1,1 @@
 RedirectMatch 301 ^(.*)/simplenlg-ger.html$ $1/software/simplenlg.html
-
-<Files "impressum.html">
-Deny from all
-</Files>
