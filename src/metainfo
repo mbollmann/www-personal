@@ -22,7 +22,7 @@ pub/*.zip:
   handler: copy
 
 /**/*.scss:
-  pipeline: [scss,yui_compressor]
+  pipeline: [scss,cssmin]
   dest_path: <parent><basename>.css
 
 --- alcn
