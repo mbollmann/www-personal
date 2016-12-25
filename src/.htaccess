@@ -1,6 +1,10 @@
 RewriteEngine On
 
 <IfDefine !MMB_DEV>
+  RewriteCond %{HTTPS} !=on
+  RewriteCond %{ENV:HTTPS} !=on
+  RewriteRule .* https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
+
   RewriteCond %{HTTP_HOST} !=marcel.bollmann.me
   RewriteRule (.*) http://marcel.bollmann.me/$1 [R=302,L]
 
