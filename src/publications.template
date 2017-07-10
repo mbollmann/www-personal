@@ -1,0 +1,6 @@
+---
+template: default.template
+--- name:content
+<section class="content-publications">
+  <webgen:block name="content" />
+</section>
