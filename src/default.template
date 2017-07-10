@@ -17,20 +17,22 @@
     <title>{title:} | Marcel Bollmann</title>
 
     <!-- BEGIN FONT LOADING -->
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
       WebFont.load({
-        classes: false,
+        classes: true,
         google: {
           families: ['Lato:400,700,400italic', 'Fira Sans:700']
-        }
+        },
+        active: function() { sessionStorage.mainfonts = true; }
       });
       WebFont.load({
-        classes: false,
+        classes: true,
         google: {
           families: ['Montserrat Subrayada:400'],
           text: 'Marcel Bollmann'
-        }
+        },
+        active: function() { sessionStorage.headerfont = true; }
       });
     </script>
     <!-- END FONT LOADING -->
