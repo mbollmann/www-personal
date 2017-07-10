@@ -22,12 +22,14 @@ variety of other projects, including the
 [annotation of social media data][EmpiriST].
 
 [<button class="button">Website</button>][CorA]
+[<button class="button"><i class="fa fa-github"></i> GitHub repository</button>][CorA-GitHub]
 {:.button-container}
 
 [Anselm]: https://www.linguistics.rub.de/comphist/projects/anselm/
 [ReF]: https://www.linguistics.rub.de/comphist/projects/ref/
 [EmpiriST]: https://sites.google.com/site/empirist2015/home/shared-task-data
 [CorA]: http://www.linguistics.rub.de/comphist/resources/cora/
+[CorA-GitHub]: https://github.com/comphist/cora
 
 --- name:cell-1r
 {::options parse_block_html="true" /}
@@ -46,7 +48,7 @@ later ported to C++ (with optional bindings for Python 2.x) with the help of
 
 [Anselm]: https://www.linguistics.rub.de/comphist/projects/anselm/
 [Norma]: http://www.linguistics.rub.de/comphist/resources/norma/
-[Norma-GitHub]: https://github.com/comphist/norma/
+[Norma-GitHub]: https://github.com/comphist/norma
 
 --- name:cell-2l
 {::options parse_block_html="true" /}
@@ -55,21 +57,34 @@ later ported to C++ (with optional bindings for Python 2.x) with the help of
 
 SimpleNLG for German is an adaption of the [SimpleNLG library][SimpleNLG] for
 natural language generation, written in Java.  I created it as part of my
-studies for my master's degree.
+studies for my Master's degree.
 
-[<button class="button">More information</button>](simplenlg.html)
+It is in desperate need of an update for the current SimpleNLG v4 framework, and
+also needs a lexical resource (not provided) for proper inflection of words.
+
+[<button class="button">More information &raquo;</button>](simplenlg.html)
 {:.button-container}
 
 [SimpleNLG]: https://github.com/simplenlg/simplenlg
 
 --- name:cell-2r
 
-## Minor projects
+## Other projects
 
-You can [visit my GitHub profile][GitHub] for other contributions I've made, such as:
+You can [visit my GitHub profile][GitHub] for other contributions I've made.
+I've also designed and/or maintained several websites (mostly using the static
+site generator [webgen][]), including:
 
-+ A few small extensions for the static website generator [webgen][] (which I've
-  used to build this site, and a few others)
++ [Computational Historical Linguistics][CompHist]
++ [St. Anselmi Fragen an Maria][Anselm-New]
++ [Reference Corpus of Middle High German][REM]
++ [KONVENS2016 conference website][KONVENS]
 
+...and the one you're just viewing, of course!
+
+[CompHist]: https://www.linguistics.rub.de/comphist/
+[Anselm-New]: https://www.linguistics.rub.de/anselm/
+[REM]: https://www.linguistics.rub.de/rem/
+[KONVENS]: https://www.linguistics.rub.de/konvens16/
 [webgen]: http://webgen.gettalong.org/
 [GitHub]: https://github.com/mbollmann/
