@@ -10,6 +10,7 @@
 
     <!-- Style sheets -->
     <link rel="stylesheet" href="{relocatable: css/main.css}">
+    <link rel="stylesheet" href="{relocatable: css/academicons.min.css}">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -55,11 +56,13 @@
 
     <footer>
       <span class="social-links float-right">
+        <a href="https://scholar.google.com/citations?user=l3pm9QkAAAAJ"><i class="ai ai-google-scholar-square"></i></a>
         <a href="https://github.com/mbollmann/"><i class="fa fa-github"></i></a>
-        <a href="https://www.linkedin.com/pub/marcel-bollmann/b8/238/267"><i class="fa fa-linkedin-square"></i></a>
+        <a href="https://bitbucket.org/mbollmann/"><i class="fa fa-bitbucket"></i></a>
         <a href="https://twitter.com/mmbollmann"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/pub/marcel-bollmann/b8/238/267"><i class="fa fa-linkedin-square"></i></a>
       </span>
-      &copy; 2016 Marcel Bollmann &mdash; <i class="fa fa-envelope-o"></i> bollmann@ling<span class="obfuscate">babanga</span>uistic<span class="obfuscate">.@...___@.</span>s.rub.de<br />
+      &copy; 2018 Marcel Bollmann &mdash; <i class="fa fa-envelope-o"></i> marcel@boll<span class="obfuscate">babanga</span>mann<span class="obfuscate">.@...___@.</span>.me<br />
       <span class="legal-notice">
         <a href="{relocatable: /impressum.html}">Impressum / Legal disclosure</a>
       </span>

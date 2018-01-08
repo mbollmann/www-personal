@@ -8,22 +8,24 @@ main_sort: 10
 
 # About me
 
-I am a computational linguist and doctoral student at the [Department of
-Linguistics][] at [Ruhr-Universität Bochum][RUB].  My research interests include
+I am a computational linguist and postdoctoral researcher at the [CoAStaL NLP
+group][] at the [University of Copenhagen][KU].  My research interests include
 corpus linguistics, (semi-)automatic annotation, processing of non-standard
 language varieties, and natural language generation.
 
-I worked in various research projects related to [computational historical
-linguistics][comphist] supervised by [Stefanie Dipper][].
+Previously, I worked in various research projects related to [computational
+historical linguistics][comphist] supervised by [Stefanie Dipper][].
 
 
 ### Contact
 
-<i class="fa fa-envelope-o"></i> [bollmann@linguistics.rub.de](mailto:bollmann@linguistics.rub.de) \\
-<i class="fa fa-key"></i> [PGP Public Key](/pub/bollmann@linguistics.rub.de_public_key.txt)
+<i class="fa fa-envelope-o"></i> [marcel@bollmann.me](mailto:marcel@bollmann.me) \\
+<i class="fa fa-github"></i> [mbollmann](https://github.com/mbollmann/) \\
+<i class="fa fa-twitter"></i> [mmbollmann](https://twitter.com/mmbollmann)
 
 {::options parse_block_html="true" /}
 
+<!--
 <div class="side-by-side">
   <address>
   **Mail**\\
@@ -39,9 +41,13 @@ linguistics][comphist] supervised by [Stefanie Dipper][].
   <i class="fa fa-phone"></i> +49 (0)234 32 22481
   </address>
 </div>
-
+-->
 
 [Department of Linguistics]: https://www.linguistics.rub.de/
 [RUB]: http://www.rub.de/
 [comphist]: https://www.linguistics.rub.de/comphist/
 [Stefanie Dipper]: https://www.linguistics.rub.de/~dipper/
+
+[CoAStaL NLP group]: http://coastalcph.github.io/
+[DIKU]: http://www.diku.dk/english/
+[KU]: http://www.ku.dk/english/
