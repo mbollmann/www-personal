@@ -9,9 +9,10 @@ main_sort: 10
 # About me
 
 I am a computational linguist and postdoctoral researcher at the [CoAStaL NLP
-group][] at the [University of Copenhagen][KU].  My research interests include
-corpus linguistics, (semi-)automatic annotation, processing of non-standard
-language varieties, and natural language generation.
+group][] at the University of Copenhagen ([Department of Computer Science,
+DIKU][DIKU]).  My research interests include corpus linguistics,
+(semi-)automatic annotation, processing of non-standard language varieties, and
+natural language generation.
 
 Previously, I worked in various research projects related to [computational
 historical linguistics][comphist] supervised by [Stefanie Dipper][].
@@ -19,29 +20,27 @@ historical linguistics][comphist] supervised by [Stefanie Dipper][].
 
 ### Contact
 
-<i class="fa fa-envelope-o"></i> [marcel@bollmann.me](mailto:marcel@bollmann.me) \\
-<i class="fa fa-github"></i> [mbollmann](https://github.com/mbollmann/) \\
-<i class="fa fa-twitter"></i> [mmbollmann](https://twitter.com/mmbollmann)
-
 {::options parse_block_html="true" /}
 
-<!--
 <div class="side-by-side">
   <address>
-  **Mail**\\
-  Sprachwissenschaftliches Institut\\
-  Ruhr-Universität Bochum\\
-  44780 Bochum\\
-  Germany
+  **Online**\\
+  <i class="fa fa-fw fa-envelope-o"></i> [marcel@bollmann.me](mailto:marcel@bollmann.me) \\
+  <i class="fa fa-fw fa-twitter"></i> [mmbollmann](https://twitter.com/mmbollmann) \\
+  <i class="fa fa-fw fa-github"></i> [mbollmann](https://github.com/mbollmann/) \\
+  <i class="fa fa-fw fa-bitbucket"></i> [mbollmann](https://bitbucket.org/mbollmann/) \\
+  <i class="ai ai-fw ai-google-scholar"></i> [Marcel Bollmann](https://scholar.google.com/citations?user=l3pm9QkAAAAJ)
   </address>
 
   <address>
-  **Office**\\
-  <i class="fa fa-home"></i> GB 3/144\\
-  <i class="fa fa-phone"></i> +49 (0)234 32 22481
+  **Offline**\\
+  Datalogisk Institut\\
+  University of Copenhagen\\
+  Sigurdsgade 41\\
+  2200 København N\\
+  Denmark
   </address>
 </div>
--->
 
 [Department of Linguistics]: https://www.linguistics.rub.de/
 [RUB]: http://www.rub.de/
