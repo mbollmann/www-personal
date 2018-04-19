@@ -3,16 +3,16 @@ title: About
 main_menu: true
 main_sort: 10
 ---
-![Marcel Bollmann](/img/mmb1s.jpg)
+![Marcel Bollmann](/img/mmb2.jpg)
 {:.float-right.float-image}
 
 # About me
 
-I am a computational linguist and postdoctoral researcher at the [CoAStaL NLP
-group][] at the University of Copenhagen ([Department of Computer Science,
-DIKU][DIKU]).  My research interests include corpus linguistics,
-(semi-)automatic annotation, processing of non-standard language varieties, and
-natural language generation.
+I am a computational linguist and postdoctoral researcher in the [CoAStaL NLP
+group][] at University of Copenhagen, Denmark.  My research interests include
+NLP for low-resource languages and non-standard varieties, computational
+historical linguistics, and machine learning with a focus on neural networks and
+multi-task learning.
 
 Previously, I worked in various research projects related to [computational
 historical linguistics][comphist] supervised by [Stefanie Dipper][].
@@ -34,7 +34,7 @@ historical linguistics][comphist] supervised by [Stefanie Dipper][].
 
   <address>
   **Offline**\\
-  Datalogisk Institut\\
+  [Datalogisk Institut][DIKU]\\
   University of Copenhagen\\
   Sigurdsgade 41\\
   2200 København N\\
@@ -50,3 +50,5 @@ historical linguistics][comphist] supervised by [Stefanie Dipper][].
 [CoAStaL NLP group]: http://coastalcph.github.io/
 [DIKU]: http://www.diku.dk/english/
 [KU]: http://www.ku.dk/english/
+
+*[NLP]: Natural Language Processing

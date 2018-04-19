@@ -6,6 +6,23 @@ title: CV
 # CV
 
 <div class="bordered-paragraph bordered-high-1">
+## Research
+
+since 2018
+: Postdoctoral Researcher in the [CoAStaL NLP group][], University of Copenhagen
+
+2011--2017
+: Research Assistant for [Prof. Stefanie Dipper][Dipper], Ruhr-Universität
+  Bochum\\
+  DFG-funded research projects:
+  
+  + [Anselm Project --- "St. Anselmi Fragen an Maria. Digitale Erschließung, Auswertung und Edition der gesamten deutschsprachigen Überlieferung (14.--16. Jh.)"][Anselm]
+  + [Reference Corpus Early New High German][Ref]
+  + [Reference Corpus Middle High German][Ref]
+{:.tabular}
+</div>
+
+<div class="bordered-paragraph bordered-high-2">
 ## Education
 
 2013--2018
@@ -27,37 +44,19 @@ title: CV
 {:.tabular}
 </div>
 
-<div class="bordered-paragraph bordered-high-2">
-## Work
-
-since 2018
-: Postdoctoral Researcher in the [CoAStaL NLP group][], University of Copenhagen
-
-2011--2017
-: Research Assistant for [Prof. Stefanie Dipper][Dipper], Ruhr-Universität
-  Bochum (DFG-funded research projects
-  ["St. Anselmi Fragen an Maria. Digitale Erschließung, Auswertung und Edition der gesamten deutschsprachigen Überlieferung (14.--16. Jh.)"][Anselm],
-  [Referenzkorpus Frühneuhochdeutsch][Ref],
-  [Referenzkorpus Mittelhochdeutsch][Ref])
-
-2005--2006
-: Student Assistant for Prof. Ralf Klabunde, Ruhr-Universität Bochum
-{:.tabular}
-</div>
-
 <div class="bordered-paragraph bordered-high-3">
 ## Teaching
 
 I have taught the following courses at the
 [Department of Linguistics](https://www.linguistics.rub.de/) in Bochum:
 
-SS 2015, SS 2013
+2013 & 2015
 : Seminar course "Aspekte der Textgenerierung" *(Aspects of natural language generation)*
 
-SS 2014
+2014
 : Seminar course "Nichtstandardsprachliche Daten" *(Non-standard language data)*
 
-SS 2010, SS 2009, WS 2008/09
+2008--2010
 : Tutorial "Tools & Techniques"
 {:.tabular}
 </div>
