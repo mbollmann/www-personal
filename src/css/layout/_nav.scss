@@ -39,6 +39,10 @@ nav.main {
         text-transform: uppercase;
         text-shadow: $menu-item-text-shadow;
 
+        transition-property: color, background-color;
+        transition-duration: 0.3s;
+        transition-timing-function: ease;
+
         /* don't use wider letter spacing on small devices, to save space */
         @media (min-width: 750px) {
           letter-spacing: .05rem;

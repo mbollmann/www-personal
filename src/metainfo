@@ -33,11 +33,8 @@ blog/:
 
 software/:
   main_menu: true
-  main_sort: 30
+  main_sort: 50
   title: Software
-
-software/index.en.html#cora-corpus-annotator:
-  in_menu: true
 
 publications/:
   main_menu: true
@@ -46,7 +43,7 @@ publications/:
 
 cv/:
   main_menu: true
-  main_sort: 50
+  main_sort: 30
   title: CV
 
 fonts/:

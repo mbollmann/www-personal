@@ -5,7 +5,7 @@
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
-  @include padding-horizontal(20px);
+  @include padding-horizontal(15px);
   box-sizing: border-box; }
 main {
   background: $main-background-color;

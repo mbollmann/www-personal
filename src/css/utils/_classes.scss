@@ -13,8 +13,17 @@
   float: right;
 }
 
-.float-image {
-  padding: 25px 10px 15px 30px;
+.float-about-image {
+  img {
+    border-radius: 10px;
+  }
+
+  padding: 10px  0px 10px 10px;
+  margin-bottom: 0;
+
+  @media (min-width: 400px) {
+    padding: 25px 10px 15px 30px;
+  }
 }
 
 .obfuscate {

@@ -26,7 +26,13 @@
       <div class="h-container u-cf">
         <h1 class="site-title"><a href="{relocatable: /index.html}">Marcel Bollmann</a></h1>
 
-        <nav class="main">
+        <nav class="main" role="navigation">
+          <!-- for possible hamburger menu; not working yet
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span> -->
+
           {menu: {options: {mi: {main_menu: true}, sort: main_sort}}}
         </nav>
       </div>

@@ -28,7 +28,7 @@ dl.tabular {
     @media (min-width: 550px) {
       float: left;
       width: 20%;
-      overflow: hidden;
+      overflow: visible;
       clear: left;
       text-align: right;
       text-overflow: ellipsis;
@@ -37,6 +37,7 @@ dl.tabular {
   }
 
   dd {
+    margin-left: 2rem;
     padding-bottom: 1rem;
 
     @media (min-width: 550px) {
@@ -47,10 +48,15 @@ dl.tabular {
 
 .content-publications {
   h4 {
-    float: left;
+    margin-bottom: .8rem;
   }
 
-  ol, ul {
-    margin-left: 9rem;
+  @media (min-width: 550px) {
+    h4 {
+      float: left;
+    }
+    ol, ul {
+      margin-left: 9rem;
+    }
   }
 }
