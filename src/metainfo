@@ -9,6 +9,9 @@
 /**/.htaccess:
   handler: copy
 
+cv/*.pdf:
+  handler: copy
+
 fonts/*:
   handler: copy
 
