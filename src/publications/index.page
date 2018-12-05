@@ -6,6 +6,8 @@ template: /publications.template
 
 #### 2018
 
++ {bib_item: BollmannPhD} (Revised and updated version of my PhD thesis.)
+  - You can also find [slides from my talk at Inria Paris, 21.09.2018](../pub/talk-histnorm-2018.pdf), summarizing some of the main points of my thesis.
 + {bib_item: W18-3403}
 
 #### 2017

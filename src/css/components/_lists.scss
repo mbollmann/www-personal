@@ -57,6 +57,10 @@ dl.tabular {
     }
     ol, ul {
       margin-left: 9rem;
+
+      ol, ul {
+        margin-left: 4.5rem;
+      }
     }
   }
 }
