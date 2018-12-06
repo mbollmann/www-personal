@@ -1,5 +1,6 @@
 ---
 title: SimpleNLG for German
+description: A Java library for surface generation in German, as part of a natural language generation (NLG) pipeline.
 template: /blocks.template
 in_menu: true
 in_sort: 9

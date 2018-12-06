@@ -3,7 +3,7 @@
   blocks: {defaults: {pipeline: [erb,tags,kramdown,blocks]}}
   meta:
     author: Marcel Bollmann
-    keywords: computational linguistics, nlp, historical linguistics, corpus linguistics, linguistics, natural language generation, personal website, academia, tools
+    keywords: computational linguistics, nlp, natural language processing, machine learning, deep learning, neural networks, historical linguistics, digital humanities, linguistics, natural language generation, personal website, academia, tools
   template: /one-column.template
 
 /**/.htaccess:

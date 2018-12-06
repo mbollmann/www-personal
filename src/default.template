@@ -8,6 +8,16 @@
     <meta name="generator" content="webgen - http://webgen.gettalong.org" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <meta name="description" property="og:description" content="{description:}" />
+    <meta property="og:title" content="Marcel Bollmann — {title:}" />
+    <meta property="og:image" content="https://marcel.bollmann.me/img/mmb2q.jpg" />
+
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:description" content="{description:}" />
+    <meta property="twitter:site" content="@mmbollmann" />
+    <meta property="twitter:title" content="Marcel Bollmann — {title:}" />
+    <meta property="twitter:image" content="https://marcel.bollmann.me/img/mmb2q.jpg" />
+
     <!-- Style sheets -->
     <link rel="stylesheet" href="{relocatable: css/main.css}">
     <link rel="stylesheet" href="{relocatable: css/academicons.min.css}">
