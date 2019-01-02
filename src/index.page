@@ -9,11 +9,12 @@ main_sort: 10
 
 # About me
 
-I am a computational linguist and postdoctoral researcher in the [CoAStaL NLP
-group][] at University of Copenhagen, Denmark.  My research interests include
-NLP for low-resource languages and non-standard varieties, computational
-historical linguistics, and machine learning with a focus on neural networks and
-multi-task learning.
+I am a computational linguist and postdoctoral researcher in natural language
+processing (NLP).  Most recently, I worked in the [CoAStaL NLP group][] at
+University of Copenhagen, Denmark.  My research interests include NLP for
+low-resource languages and non-standard varieties, computational historical
+linguistics, and machine learning with a focus on neural networks and multi-task
+learning.
 
 Previously, I worked in various research projects related to [computational
 historical linguistics][comphist] supervised by [Stefanie Dipper][], where I
@@ -27,7 +28,7 @@ obtained my PhD degree in Computational Linguistics in 2018.
 <div class="side-by-side">
   <address>
   **Online**\\
-  <i class="fa fa-fw fa-envelope-o"></i> [marcel@di.ku.dk](mailto:marcel@di.ku.dk) \\
+  <i class="fa fa-fw fa-envelope-o"></i> marcel@bollm<span class="obfuscate">wallabies-are-awesome</span>a<span class="obfuscate">.@...___@.</span>nn.me \\
   <i class="fa fa-fw fa-twitter"></i> [mmbollmann](https://twitter.com/mmbollmann) \\
   <i class="fa fa-fw fa-github"></i> [mbollmann](https://github.com/mbollmann/) \\
   <i class="fa fa-fw fa-bitbucket"></i> [mbollmann](https://bitbucket.org/mbollmann/) \\
@@ -35,6 +36,7 @@ obtained my PhD degree in Computational Linguistics in 2018.
   <i class="ai ai-fw ai-orcid"></i> [orcid.org/0000-0003-2598-8150](https://orcid.org/0000-0003-2598-8150)
   </address>
 
+<!--
   <address>
   **Offline**\\
   University of Copenhagen\\
@@ -42,7 +44,7 @@ obtained my PhD degree in Computational Linguistics in 2018.
   Universitetsparken 1\\
   2100 København Ø\\
   Denmark
-  </address>
+  </address> -->
 </div>
 
 [Department of Linguistics]: https://www.linguistics.rub.de/
