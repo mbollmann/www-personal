@@ -1,0 +1,11 @@
+{{ define "main" }}
+  {{ .Content }}
+{{ end }}
+
+{{ define "javascript" }}
+<script>
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+{{ end }}

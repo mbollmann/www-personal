@@ -1,0 +1,76 @@
+{{ define "main" }}
+<div>
+  {{ .Content }}
+
+  <a class="btn btn-primary float-right" href="{{ "/cv.pdf" | relURL }}"><i class="fas fa-download mr-2"></i>Detailed CV (PDF)</a>
+</div>
+
+<!-- The ml-n... class needs to offset whatever is on the main-container in baseof.html -->
+<div class="cv-border cv-border-1 ml-n4 pl-3">
+  <h3>Research</h3>
+
+  <dl class="cv-entries">
+    <dt>since 2019</dt>
+    <dd>Marie Skłodowska-Curie Fellow in the <a href="http://coastalcph.github.io/">CoAStaL NLP Group</a>, University of Copenhagen
+      <ul>
+        <li>Project: Morphologically-Informed Representations for Natural Language Processing (MorphIRe)</li>
+      </ul>
+    </dd>
+
+    <dt>2018</dt>
+    <dd>Postdoctoral researcher in the <a href="http://coastalcph.github.io/">CoAStaL NLP Group</a>, University of Copenhagen<br />(Supervisor: <a href="https://anderssoegaard.github.io/">Anders Søgaard</a>)</dd>
+
+    <dt>2011—2017</dt>
+    <dd>Research assistant in various DFG-funded research projects, Ruhr-Universität Bochum<br />(Supervisor: <a href="https://www.linguistics.rub.de/~dipper/">Stefanie Dipper</a>)
+
+      <ul>
+        <li><a href="https://www.linguistics.rub.de/comphist/projects/anselm/">Anselm Project — “St. Anselmi Fragen an Maria. Digitale Erschließung, Auswertung und Edition der gesamten deutschsprachigen Überlieferung (14.–16. Jh.)”</a></li>
+        <li><a href="https://www.linguistics.rub.de/comphist/projects/ref/">Reference Corpus Early New High German</a></li>
+        <li><a href="https://www.linguistics.rub.de/comphist/projects/rem/">Reference Corpus Middle High German</a></li>
+      </ul>
+    </dd>
+  </dl>
+</div>
+
+<div class="cv-border cv-border-2 ml-n4 pl-3">
+  <h3>Education</h3>
+
+  <dl class="cv-entries">
+    <dt>2013—2018</dt>
+    <dd>PhD (Dr. phil.) in Computational Linguistics, Ruhr-Universität Bochum (Supervisor: <a href="https://www.linguistics.rub.de/~dipper/">Stefanie Dipper</a>)
+      <ul>
+        <li>Thesis: <a href="http://www.linguistics.rub.de/forschung/arbeitsberichte/22.pdf">Normalization of Historical Texts with Neural Network Models</a></li>
+      </ul>
+    </dd>
+
+    <dt>2009—2012</dt>
+    <dd>Master of Arts (M.A.) in Linguistics (with focus on Computational Linguistics), Ruhr-Universität Bochum
+
+      <ul>
+        <li>Thesis: <a href="http://www.linguistics.rub.de/forschung/arbeitsberichte/13.pdf">Automatic Normalization for Linguistic Annotation of Historical Language Data</a></li>
+        <!-- class="alert alert-primary px-2 py-1" -->
+        <li>For my master′s thesis, I received the <strong><a href="https://gscl.org/en/Awards">GSCL Award for Best Student Thesis</a></strong> within the field of computational linguistics and language technologies.</li>
+      </ul>
+    </dd>
+
+    <dt>2004—2009</dt>
+    <dd>Bachelor of Arts (B.A.) in Mathematics and Linguistics (with focus on Computational Linguistics), Ruhr-Universität Bochum</dd>
+  </dl>
+</div>
+
+<div class="cv-border cv-border-3 ml-n4 pl-3">
+  <h3>Teaching</h3>
+
+  <p>I have taught the following courses at the <a href="https://www.linguistics.rub.de/">Department of Linguistics</a> in Bochum:
+
+  <dl class="cv-entries">
+    <dt>2013 & 2015</dt>
+    <dd>Seminar course “Aspekte der Textgenerierung” <i>(Aspects of natural language generation)</i></dd>
+    <dt>2014</dt>
+    <dd>Seminar course “Nichtstandardsprachliche Daten” <i>(Non-standard language data)</i></dd>
+    <dt>2008—2010</dt>
+    <dd>Tutorial “Tools & Techniques”</dd>
+  </dl>
+</div>
+
+{{ end }}

@@ -1,0 +1,8 @@
+<div class="card info-card">
+  <div class="card-body">
+    <h5 class="card-title">{{ with .Get "href" }}<a href="{{ . }}">{{ end }}{{ with .Get "relref" }}<a href="{{ relref $ . }}">{{ end }}{{ .Get "title" }}{{ with or (.Get "href") (.Get "relref") }}</a>{{ end }}</h6>
+    <div class="card-text-children">
+      {{ .Inner }}
+    </div>
+  </div>
+</div>

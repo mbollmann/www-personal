@@ -1,0 +1,36 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-primary py-0">
+  <div id="navbar-container" class="container justify-content-between">
+    <a class="navbar-brand pl-md-2 pl-lg-3" href="{{ "/" | relURL }}" style="font-family: 'Montserrat Subrayada';">Marcel Bollmann</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-main-menu" aria-controls="navbar-main-menu" aria-expanded="false" aria-label="Toggle menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div id="navbar-main-menu" class="collapse navbar-collapse flex-grow-0">
+      <ul class="navbar-nav">
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+            {{ if .HasChildren }}
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle {{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}" data-toggle="dropdown" href="#">
+                        {{ .Pre }}
+                        <span class="text-uppercase">{{ .Name }}</span>
+                    </a>
+                    <div class="dropdown-menu">
+                        {{ range .Children }}
+                          <a class="dropdown-item" href="{{ .URL }}">{{ .Name }}</a>
+                        {{ end }}
+                    </div>
+                </li>
+            {{ else }}
+                <li class="nav-item">
+                    <a class="nav-link {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}" href="{{ .URL }}">
+                        {{ .Pre }}
+                        <span class="text-uppercase">{{ .Name }}</span>
+                    </a>
+                </li>
+            {{ end }}
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+</nav>

@@ -3,3 +3,6 @@ out/
 tmp/
 
 /src/publications/personal.bib.bak
+/data/bibliography.yaml
+public/
+resources/

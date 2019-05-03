@@ -1,0 +1,227 @@
+
+$color-blueish-ming: #3E6987;
+$color-mercury: #E5E5E5;
+$color-silver: #CCCCCC;
+$color-wild-sand: #F4F4F4;
+
+$primary:       $color-blueish-ming;
+$light:         $color-wild-sand;
+
+$link-color: lighten($color-blueish-ming, 8%);
+$link-hover-color: lighten($color-blueish-ming, 20%);
+
+$font-family-sans-serif:      Lato, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$headings-font-family:        "Fira Sans", $font-family-sans-serif;
+
+/* Required Bootstrap components */
+@import 'vendor/bootstrap/scss/functions';
+@import 'vendor/bootstrap/scss/variables';
+@import 'vendor/bootstrap/scss/mixins';
+
+/* Optional Bootstrap components -- we only include those we need */
+@import 'vendor/bootstrap/scss/root';
+@import 'vendor/bootstrap/scss/reboot';
+@import 'vendor/bootstrap/scss/type';
+@import 'vendor/bootstrap/scss/images';
+@import 'vendor/bootstrap/scss/code';
+@import 'vendor/bootstrap/scss/grid';
+@import 'vendor/bootstrap/scss/tables';
+@import 'vendor/bootstrap/scss/forms';
+@import 'vendor/bootstrap/scss/buttons';
+@import 'vendor/bootstrap/scss/transitions';
+@import 'vendor/bootstrap/scss/dropdown';
+// @import 'vendor/bootstrap/scss/button-group';
+// @import 'vendor/bootstrap/scss/input-group';
+// @import 'vendor/bootstrap/scss/custom-forms';
+@import 'vendor/bootstrap/scss/nav';
+@import 'vendor/bootstrap/scss/navbar';
+@import 'vendor/bootstrap/scss/card';
+// @import 'vendor/bootstrap/scss/breadcrumb';
+@import 'vendor/bootstrap/scss/pagination';
+@import 'vendor/bootstrap/scss/badge';
+// @import 'vendor/bootstrap/scss/jumbotron';
+@import 'vendor/bootstrap/scss/alert';
+// @import 'vendor/bootstrap/scss/progress';
+// @import 'vendor/bootstrap/scss/media';
+@import 'vendor/bootstrap/scss/list-group';
+@import 'vendor/bootstrap/scss/close';
+// @import 'vendor/bootstrap/scss/toasts';
+// @import 'vendor/bootstrap/scss/modal';
+@import 'vendor/bootstrap/scss/tooltip';
+// @import 'vendor/bootstrap/scss/popover';
+// @import 'vendor/bootstrap/scss/carousel';
+// @import 'vendor/bootstrap/scss/spinners';
+@import 'vendor/bootstrap/scss/utilities';
+@import 'vendor/bootstrap/scss/print';
+
+@import 'vendor/academicons';
+
+body {
+  background: url("/img/type_inverted.png");
+}
+
+#main-container {
+  background: $white;
+}
+
+.navbar-brand {
+  font-family: 'Montserrat Subrayada', $headings-font-family;
+  line-height: 1.2;
+}
+@include media-breakpoint-up(md) {
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+}
+@include media-breakpoint-up(lg) {
+  .navbar-brand {
+    font-size: 1.75rem;
+  }
+}
+
+.profile-pic {
+  border-radius: 8% !important;
+  width: 40vw !important;
+  max-width: 150px !important;
+  float: right;
+}
+
+$color-cv-border: #C3D6E3;
+
+.cv-border {
+  border-left-width: 8px;
+  border-left-style: solid;
+  padding-top: .75rem;
+}
+
+.cv-border-1 {
+  border-left-color: $color-cv-border;
+}
+.cv-border-2 {
+  border-left-color: darken( $color-cv-border, 15% );
+}
+.cv-border-3 {
+  border-left-color: darken( $color-cv-border, 30% );
+}
+
+/* This essentially reimplements the old Bootstrap dl-horizontal class */
+dl.cv-entries {
+  margin-bottom: 0 !important;
+
+  &:before, &:after {
+    display: table;
+    content: "";
+    line-height: 0;
+  }
+
+  dt {
+    clear: left;
+    text-align: left;
+  }
+  @include media-breakpoint-up(sm) {
+    dt {
+      float: left;
+      width: 10rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      text-align: right;
+    }
+  }
+
+  dd {
+    margin-left: 1rem;
+    margin-bottom: .75rem;
+
+    &:empty {
+      @extend .text-muted;
+    }
+    &:empty::before {
+      content: '–';
+    }
+  }
+
+  @include media-breakpoint-up(sm) {
+    dd {
+      margin-left: 11rem;
+    }
+  }
+
+  ul, ol {
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+  }
+}
+
+.card-text-children {
+  :last-child {
+    margin-bottom: 0 !important;
+  }
+}
+
+.card.info-card {
+  @extend .mb-4;
+
+  .info-card + & {
+    @extend .mt-n3;
+  }
+}
+
+.page-publications {
+  @include media-breakpoint-up(sm) {
+    h4 {
+      float: left;
+    }
+    h4 + ul {
+      margin-left: 4rem;
+    }
+    ul ul {
+      font-size: 92%;
+      margin-top: .25rem;
+      margin-bottom: .25rem;
+    }
+  }
+
+  li {
+    margin-bottom: .3rem;
+  }
+}
+
+.bibitem-highlight-name {
+  font-weight: $font-weight-bold;
+}
+
+.poster-wall {
+  text-align: center;
+
+  a {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 48%;
+    max-width: 200px;
+  }
+
+  img {
+    width: 100%;
+    @extend .py-2;
+  }
+
+  @include media-breakpoint-up(md) {
+    a {
+      width: 32%;
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    a {
+      width: 24.5%;
+    }
+  }
+
+  @include media-breakpoint-up(xl) {
+    a {
+      width: 16.4%;
+    }
+  }
+}

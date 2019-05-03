@@ -1,0 +1,57 @@
+---
+Title: Publications
+menu:
+  main:
+    weight: 50
+main_class: page-publications
+---
+
+## Publications
+
+#### 2019
+
++ {{< bibitem bollmann2019-largescale >}}
++ {{< bibitem bollmann-etal2019-fewshot >}}
+
+#### 2018
+
++ {{< bibitem bollmann2018-normalization >}}
++ {{< bibitem bollmann-etal2018-multitask >}}
+
+#### 2017
+
++ {{< bibitem tjongkimsang-etal2017-clin27 >}}
++ {{< bibitem bollmann-etal2017-learning >}}
+
+#### 2016
+
++ {{< bibitem petran-etal2016-rem >}}
++ {{< bibitem bollmann-sogaard2016-improving >}}
++ {{< bibitem bollmann-etal2016-evaluating >}}
+
+#### 2015
+
++ {{< bibitem bollmann-etal2015-applying >}}
++ {{< bibitem krasselt-etal2015-guidelines >}}
+
+#### 2014
+
++ {{< bibitem bollmann-etal2014-cora >}}
++ {{< bibitem bollmann-etal2014-annis "nobib,muted" >}}
+
+#### 2013
+
++ {{< bibitem bollmann2013-pos >}}
++ {{< bibitem bollmann2013-automatic >}}
+
+#### 2012
+
++ {{< bibitem bollmann2012-semi >}}
++ {{< bibitem bollmann-etal2012-manual >}}
++ {{< bibitem bollmann-etal2012-anselm "nobib,muted" >}}
+
+#### 2011
+
++ {{< bibitem bollmann-etal2011-applying >}}
++ {{< bibitem bollmann-etal2011-rulebased >}}
++ {{< bibitem bollmann2011-adapting >}}

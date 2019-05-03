@@ -1,0 +1,5 @@
+black
+docopt
+PyYAML
+citeproc-py
+citeproc-py-styles
