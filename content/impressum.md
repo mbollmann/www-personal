@@ -1,6 +1,8 @@
 ---
 Title: Impressum
+description: Legal information in accordance with § 5 TMG (required by German law).
 layout: impressum
+date: "2019-05-06"
 ---
 
 ## Impressum · Legal Disclosure

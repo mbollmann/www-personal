@@ -1,5 +1,6 @@
 ---
 Title: SimpleNLG for German
+description: An adaption of the SimpleNLG library for German.
 url: /software/simplenlg.html
 ---
 

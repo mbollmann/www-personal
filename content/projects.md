@@ -1,6 +1,7 @@
 ---
 Title: Projects
-date: "2019-05-03"
+description: Links to software, datasets, and other resources on historical text normalization, morphological representations, and natural language generation.
+date: "2019-05-06"
 menu:
   main:
     weight: 40

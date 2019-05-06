@@ -1,9 +1,11 @@
 ---
 Title: Publications
+description: A list of academic publications, with links to slides, code, etc. if available.
 menu:
   main:
     weight: 50
 main_class: page-publications
+date: "2019-05-06"
 ---
 
 ## Publications
