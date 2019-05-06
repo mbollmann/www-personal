@@ -29,6 +29,10 @@
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:image:type" content="image/png">
+    <meta property="twitter:site" content="@mmbollmann">
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:description" content="{{ .Description }}">
+    <meta property="twitter:title" content="{{ with .Params.Title }}{{ . }} | {{ end }}{{ .Site.Title }}">
 
     {{ block "meta" . }}{{ end }}
   </head>
