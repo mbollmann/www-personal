@@ -5,13 +5,11 @@ menu:
     weight: 90
 ---
 
-## Miscellaneous
-
 ### Poster Wall
 
 Because it's nice to be reminded of past achievements.
 
-<div class="poster-wall">
+<div class="poster-wall mb-3">
 <a href="/pub/PosterENLG.pdf"><img src="/img/preview-PosterENLG.pdf.jpg-1.jpg" data-toggle="tooltip" data-placement="bottom" title="Adapting SimpleNLG to German (2011)"></a>
 <a href="/pub/poster-dgfs2012.pdf"><img src="/img/preview-poster-dgfs2012.pdf.jpg-1.jpg" data-toggle="tooltip" data-placement="bottom" title="The Anselm Project (2012)"></a>
 <a href="/pub/poster-dgfs2014.pdf"><img src="/img/preview-poster-dgfs2014.pdf.jpg-1.jpg" data-toggle="tooltip" data-placement="bottom" title="ANNIS-Hist: Historische deutschsprachige Korpora in ANNIS (2014)"></a>

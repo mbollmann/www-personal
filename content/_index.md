@@ -1,8 +1,5 @@
 ---
 Title: About
-menu:
-  main:
-    weight: 1
 date: "2019-05-03"
 ---
 

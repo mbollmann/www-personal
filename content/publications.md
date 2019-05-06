@@ -10,7 +10,7 @@ main_class: page-publications
 
 #### 2019
 
-+ {{< bibitem bollmann2019-largescale >}}
++ {{< bibitem bollmann2019-largescale "nobib" >}}
 + {{< bibitem bollmann-etal2019-fewshot >}}
 
 #### 2018
