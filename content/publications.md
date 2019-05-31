@@ -12,7 +12,8 @@ date: "2019-05-06"
 
 #### 2019
 
-+ {{< bibitem bollmann2019-largescale "nobib" >}}
++ {{< bibitem flachs-etal2019-historical "nobib" >}}
++ {{< bibitem bollmann2019-largescale >}}
 + {{< bibitem bollmann-etal2019-fewshot >}}
 
 #### 2018
@@ -33,12 +34,12 @@ date: "2019-05-06"
 
 #### 2015
 
-+ {{< bibitem bollmann-etal2015-applying >}}
 + {{< bibitem krasselt-etal2015-guidelines >}}
 
 #### 2014
 
 + {{< bibitem bollmann-etal2014-cora >}}
++ {{< bibitem bollmann-etal2014-applying >}}
 + {{< bibitem bollmann-etal2014-annis "nobib,muted" >}}
 
 #### 2013
