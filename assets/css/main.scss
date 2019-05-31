@@ -200,6 +200,11 @@ dl.cv-entries {
     margin-right: auto;
     width: 48%;
     max-width: 200px;
+
+    &.landscape {
+      width: 68%;
+      max-width: 300px;
+    }
   }
 
   img {
@@ -210,18 +215,30 @@ dl.cv-entries {
   @include media-breakpoint-up(md) {
     a {
       width: 32%;
+
+      &.landscape {
+        width: 45.3%;
+      }
     }
   }
 
   @include media-breakpoint-up(lg) {
     a {
       width: 24.5%;
+
+      &.landscape {
+        width: 34.6%;
+      }
     }
   }
 
   @include media-breakpoint-up(xl) {
     a {
       width: 16.4%;
+
+      &.landscape {
+        width: 23.2%;
+      }
     }
   }
 }
