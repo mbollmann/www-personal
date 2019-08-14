@@ -12,7 +12,8 @@ date: "2019-05-06"
 
 #### 2019
 
-+ {{< bibitem flachs-etal2019-historical "nobib" >}}
++ {{< bibitem beloucif-etal2019-naive "nobib" >}}
++ {{< bibitem flachs-etal2019-historical >}}
 + {{< bibitem bollmann2019-largescale >}}
 + {{< bibitem bollmann-etal2019-fewshot >}}
 
