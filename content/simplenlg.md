@@ -6,6 +6,10 @@ url: /software/simplenlg.html
 
 ## SimpleNLG for German
 
+<p class="alert alert-info">
+As of October 2019, a <a class="alert-link" href="https://github.com/sebischair/SimpleNLG-DE">new SimpleNLG adaption for German</a> has been released.  It is based on the newer SimpleNLG v4 architecture and comes with a more permissive license.  For all practical purposes, you probably want to use this newer adaption instead.
+</p>
+
 In 2010--2011, I worked on an adaption of the [SimpleNLG
 library](https://github.com/simplenlg/simplenlg) for German as part of my
 studies for my Master's degree. Since then, I have no longer been working in the
@@ -66,10 +70,6 @@ If you have any questions specific to my adaption of SimpleNLG for German,
 please feel free to contact me. For questions about the original SimpleNLG,
 please refer to the [SimpleNLG discussion
 list](https://groups.google.com/forum/#!forum/simplenlg) instead.
-
-If you would like to continue or contribute to the development of this software
-package (e.g., porting it to the newer version 4 architecture), I'd be happy to
-hear from you!
 
 {{% /bootstrap/col %}}
 {{% /bootstrap/row %}}
