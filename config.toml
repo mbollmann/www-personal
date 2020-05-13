@@ -2,3 +2,6 @@ baseURL = "https://marcel.bollmann.me/"
 languageCode = "en-us"
 title = "Marcel Bollmann"
 disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[markup]
+  defaultMarkdownHandler = "blackfriday"

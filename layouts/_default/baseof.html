@@ -8,7 +8,7 @@
 
     <title>{{ block "title" . }}{{ with .Params.Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
 
-    {{ .Hugo.Generator }}
+    {{ hugo.Generator }}
     <link rel="shortcut icon" type="image/png" sizes="32x32" href="{{ "favicon-32x32.png" | relURL }}" />
     <link rel="shortcut icon" type="image/png" sizes="96x96" href="{{ "favicon-96x96.png" | relURL }}" />
     <link rel="shortcut icon" type="image/png" sizes="16x16" href="{{ "favicon-16x16.png" | relURL }}" />
