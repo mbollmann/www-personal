@@ -12,7 +12,7 @@ date: "2019-05-06"
 
 #### 2020
 
-+ {{< bibitem bollmann-elliott2020-forgetting "nobib" >}}
++ {{< bibitem bollmann-elliott2020-forgetting >}}
 
 #### 2019
 
