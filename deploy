@@ -1,3 +1,5 @@
 #!/bin/bash
 
-rsync -vP --delete public/* uberspace:html/
+find public/ -type d -exec chmod a+rx {} \;
+find public/ -type f -exec chmod a+r {} \;
+rsync -rvP --delete public/* uberspace:html/

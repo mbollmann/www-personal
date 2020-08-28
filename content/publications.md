@@ -10,6 +10,10 @@ date: "2019-05-06"
 
 ## Publications
 
+#### 2020
+
++ {{< bibitem bollmann-elliott2020-forgetting >}}
+
 #### 2019
 
 + {{< bibitem bollmann-etal2019-fewshot >}}
