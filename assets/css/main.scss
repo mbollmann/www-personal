@@ -191,6 +191,19 @@ dl.cv-entries {
   font-weight: $font-weight-bold;
 }
 
+.btn-portal {
+  display: block;
+  width: 8em;
+
+  i {
+    display: inline-block;
+    font-size: 280%;
+  }
+  span {
+    font-size: smaller;
+  }
+}
+
 .poster-wall {
   text-align: center;
 
