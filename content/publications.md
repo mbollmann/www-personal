@@ -5,7 +5,7 @@ menu:
   main:
     weight: 50
 main_class: page-publications
-date: "2019-05-06"
+date: "2020-12-01"
 ---
 
 ## Publications

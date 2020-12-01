@@ -1,7 +1,7 @@
 ---
 Title: About me
 description: I'm a computational linguist and researcher at the University of Copenhagen, Denmark.  My current project is on morphologically-informed representations for NLP, for which I got a Marie Curie Fellowship from the EU.
-date: "2019-05-06"
+date: "2020-12-01"
 ---
 
 ## About me
