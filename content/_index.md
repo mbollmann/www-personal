@@ -18,4 +18,8 @@ historical linguistics](https://www.linguistics.rub.de/comphist/) supervised by
 [Stefanie Dipper](https://www.linguistics.rub.de/~dipper/), where I obtained my
 PhD degree in computational linguistics in 2018.
 
-My research interests include NLP for low-resource languages and non-standard varieties, morphologically-informed NLP, computational historical linguistics, and machine learning.
+My research interests revolve around natural language processing (NLP) and
+machine learning (ML) in challenging scenarios, such as under-resourced
+languages, multilingual modeling, or historical documents.  I am particularly
+interested in linguistically-informed approaches to NLP, as well as improving
+NLP for a wider range of languages and text genres.
