@@ -59,8 +59,9 @@ Python 2.x) with the help of Florian Petran.  {{% /info_card %}}
 
 In 2019, I've been awarded an [MSCA Individual
 Fellowship](https://ec.europa.eu/research/mariecurieactions/actions/individual-fellowships_en)
-to work on "Morphologically-Informed Representations for NLP" (MorphIRe).  More
-information will be published here over time.
+to work on "Morphologically-Informed Representations for NLP" (MorphIRe).
+
+Among other (yet unpublished) experiments, this led to a paper on [the role of morphology for error analysis in NLP](https://www.aclweb.org/anthology/2021.eacl-main.162/) that was awarded "Best Paper" at EACL 2021.
 
 ### Websites
 

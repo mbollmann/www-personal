@@ -1,5 +1,6 @@
 {{ $key := .Get 0 }}
 {{ $opts := .Get 1 }}
+{{ $extra_badge := .Get 2 }}
 {{ with index $.Site.Data.bibliography $key }}
 <div class="bibitem{{ if in $opts "muted" }} text-muted{{ end }}">
   {{ .html | safeHTML }}
@@ -9,13 +10,20 @@
   </a>
   {{ end }}
   {{ with .hugo_attach }}
-  {{ range (split . "|") }}
-  {{ $label := index (split . "»") 0 }}
-  {{ $href := index (split . "»") 1 }}
-  <a class="badge badge-info" href="{{ $href | absURL }}" style="vertical-align: text-bottom;">
-    {{ $label }}
-  </a>
+    {{ range (split . "|") }}
+      {{ $label := index (split . "»") 0 }}
+      {{ $href := index (split . "»") 1 }}
+      <a class="badge badge-info" href="{{ $href | absURL }}" style="vertical-align: text-bottom;">
+        {{ $label }}
+      </a>
+    {{ end }}
   {{ end }}
+  {{ with $extra_badge }}
+    {{ $symbol := index (split . ",") 0 }}
+    {{ $label := index (split . ",") 1 }}
+    <span class="badge badge-warning" style="vertical-align: text-bottom;">
+      <i class="fas {{ $symbol }} pr-1"></i>{{ $label }}
+    </span>
   {{ end }}
 </div>
 <div class="collapse" id="{{ anchorize $key }}">
