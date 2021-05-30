@@ -52,6 +52,22 @@ project](https://www.linguistics.rub.de/comphist/projects/anselm/). Originally
 written by me in Python, it was later ported to C++ (with optional bindings for
 Python 2.x) with the help of Florian Petran.  {{% /info_card %}}
 
+### Text Generation
+
+I worked briefly on natural language generation during my Master's studies.
+
+{{% info_card
+    title="SimpleNLG for German"
+    relref="simplenlg.md"
+%}}
+
+An adaption of the [SimpleNLG library](https://github.com/simplenlg/simplenlg)
+for natural language generation, written in Java, and created as part of my
+studies for my Master's degree.  It has been superseded by [this SimpleNLG-DE
+library](https://github.com/sebischair/SimpleNLG-DE), but my original adaption
+is still provided here for archival reasons.
+{{% /info_card %}}
+
 {{% /bootstrap/col %}}
 
 {{% bootstrap/col %}}
@@ -61,7 +77,14 @@ In 2019, I've been awarded an [MSCA Individual
 Fellowship](https://ec.europa.eu/research/mariecurieactions/actions/individual-fellowships_en)
 to work on "Morphologically-Informed Representations for NLP" (MorphIRe).
 
-Among other (yet unpublished) experiments, this led to a paper on [the role of morphology for error analysis in NLP](https://www.aclweb.org/anthology/2021.eacl-main.162/) that was awarded "Best Paper" at EACL 2021.
+<img src="/img/morph_seg.png" title="Different strategies for constructing word representations in NLP" class="img-fluid px-2 px-md-3" />
+
+This resulted in a large-scale analysis of [the role of morphology for error analysis in NLP](https://www.aclweb.org/anthology/2021.eacl-main.162/), which was awarded "Best Long Paper" at EACL 2021.  I have also worked on improved word segmentation algorithms in highly multilingual settings, for which I expect to publish results before the end of 2021, and contributed to a [meta-study of how we cite older literature](https://www.aclweb.org/anthology/2020.acl-main.699).
+
+<p><img src="/img/Flag_of_Europe.svg" title="Flag of Europe" class="float-right py-1 px-2 px-md-3" width="135" />
+The project was funded from the European Union's Horizon&nbsp;2020 research and innovation programme under the Marie Skłodowska-Curie grant agreement No.&nbsp;845995.
+</p>
+
 
 ### Websites
 
@@ -87,27 +110,12 @@ I've built several websites for research projects and conferences:
 - [KONVENS 2016](https://www.linguistics.rub.de/konvens16/)
 {{% /info_card %}}
 
-### Text Generation
 
-I worked briefly on natural language generation during my Master's studies.
-
-{{% info_card
-    title="SimpleNLG for German"
-    relref="simplenlg.md"
-%}}
-
-An adaption of the [SimpleNLG library](https://github.com/simplenlg/simplenlg)
-for natural language generation, written in Java, and created as part of my
-studies for my Master's degree.
-It is in dire need of an update for the current SimpleNLG v4 framework, and
-also needs a lexical resource (not provided) for proper inflection of words.
-{{% /info_card %}}
-
-{{% /bootstrap/col %}}
-{{% /bootstrap/row %}}
-
-#### But wait, there's more...
+#### ...and even more
 
 Occasionally, I contribute to other open-source software projects or publish
 some of my own.  You can [visit my GitHub
 profile](https://github.com/mbollmann/) to see all my contributions.
+
+{{% /bootstrap/col %}}
+{{% /bootstrap/row %}}
