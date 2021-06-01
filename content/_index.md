@@ -1,7 +1,7 @@
 ---
 Title: About me
 description: I'm a computational linguist and researcher at Jönköping University, Sweden.  I have previously worked at the University of Copenhagen, Denmark, and Ruhr-Universität Bochum, Germany.  My research areas include natural language processing (NLP) for historical documents, morphologically-complex languages, and linguistically-informed approaches to NLP.
-date: "2021-05-30"
+date: "2021-06-01"
 ---
 
 ## About me

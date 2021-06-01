@@ -12,16 +12,17 @@ date: "2019-05-06"
 <address class="ml-4">
 <p>
 Marcel Bollmann<br />
-Frankrigsgade 19 4.tv<br />
-2300 København S<br />
-Denmark
+Tekniska Högskolan i Jönköping AB<br />
+Gjuterigatan 5, Rum D2408<br />
+55318 Jönköping<br />
+Sweden
 </p>
 </address>
 
 ### Kontakt · Contact
 
 <i class="fas fa-fw fa-envelope"></i> [legal@bollmann.me](mailto:legal@bollmann.me) \\
-<i class="fas fa-fw fa-phone"></i> +45 53 57 59 84 \\
+<i class="fas fa-fw fa-phone"></i> +46 36-10 1017
 <i class="fas fa-fw fa-home"></i> [marcel.bollmann.me](http://marcel.bollmann.me/)
 
 ### Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV ·<br />Person responsible for content in accordance with § 55 Abs. 2 RStV
@@ -29,9 +30,10 @@ Denmark
 <address class="ml-4">
 <p>
 Marcel Bollmann<br />
-Frankrigsgade 19 4.tv<br />
-2300 København S<br />
-Denmark
+Tekniska Högskolan i Jönköping AB<br />
+Gjuterigatan 5, Rum D2408<br />
+55318 Jönköping<br />
+Sweden
 </p>
 </address>
 
