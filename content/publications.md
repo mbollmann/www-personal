@@ -12,7 +12,7 @@ date: "2020-12-01"
 
 #### 2021
 
-+ {{< bibitem bollmann-etal2021-moses "nobib" >}}
++ {{< bibitem bollmann-etal2021-moses >}}
 + {{< bibitem bollmann-sogaard2021-error "" "fa-star,Best Paper Award" >}}
 
 #### 2020
