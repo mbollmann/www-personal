@@ -19,7 +19,7 @@ other associated resources.
 I've worked extensively on machine learning approaches to historical
 text/spelling normalization, which ultimately became the topic of my PhD thesis.
 
-<img src="/img/wordcloud-frau.svg" title="Historical spelling variants of German 'Frau'" class="img-fluid px-2 px-md-3 px-lg-4 px-xl-5" />
+<img src="/img/wordcloud-frau.svg" title="Historical spelling variants of German 'Frau'" class="img-fluid px-2 px-md-3 px-lg-4 px-xl-5 mb-4" />
 
 {{% info_card
     title="Tools & Resources for Historical Text Normalization"
@@ -50,7 +50,8 @@ data. It was originally developed for use with historical documents in the
 [Anselm
 project](https://www.linguistics.rub.de/comphist/projects/anselm/). Originally
 written by me in Python, it was later ported to C++ (with optional bindings for
-Python 2.x) with the help of Florian Petran.  {{% /info_card %}}
+Python 2.x) with the help of Florian Petran.
+{{% /info_card %}}
 
 ### Text Generation
 
@@ -77,7 +78,7 @@ In 2019, I've been awarded an [MSCA Individual
 Fellowship](https://ec.europa.eu/research/mariecurieactions/actions/individual-fellowships_en)
 to work on "Morphologically-Informed Representations for NLP" (MorphIRe).
 
-<img src="/img/morph_seg.png" title="Different strategies for constructing word representations in NLP" class="img-fluid px-2 px-md-3" />
+<img src="/img/morph_seg.png" title="Different strategies for constructing word representations in NLP" class="img-fluid px-2 px-md-3 mb-3" />
 
 This resulted in a large-scale analysis of [the role of morphology for error analysis in NLP](https://www.aclweb.org/anthology/2021.eacl-main.162/), which was awarded "Best Long Paper" at EACL 2021.  I have also worked on improved word segmentation algorithms in highly multilingual settings, for which I expect to publish results before the end of 2021, and contributed to a [meta-study of how we cite older literature](https://www.aclweb.org/anthology/2020.acl-main.699).
 

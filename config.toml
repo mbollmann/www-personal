@@ -4,4 +4,6 @@ title = "Marcel Bollmann"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [markup]
-  defaultMarkdownHandler = "blackfriday"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

@@ -1,9 +1,9 @@
 <div class="card info-card">
-  {{ with .Get "img-overlay" }}<img src="{{ . }}" class="card-img" />{{ end }}
-  <div class="card-body {{ with .Get "img-overlay" }}card-img-overlay{{ end }}">
-    <h5 class="card-title">{{ with .Get "href" }}<a href="{{ . }}">{{ end }}{{ with .Get "relref" }}<a href="{{ relref $ . }}">{{ end }}{{ .Get "title" }}{{ with or (.Get "href") (.Get "relref") }}</a>{{ end }}</h5>
-    <div class="card-text-children">
-      {{ .Inner }}
-    </div>
+ {{ with .Get "img-overlay" }}<img src="{{ . }}" class="card-img" />{{ end }}
+ <div class="card-body {{ with .Get "img-overlay" }}card-img-overlay{{ end }}">
+  <h5 class="card-title">{{ with .Get "href" }}<a href="{{ . }}">{{ end }}{{ with .Get "relref" }}<a href="{{ relref $ . }}">{{ end }}{{ .Get "title" }}{{ with or (.Get "href") (.Get "relref") }}</a>{{ end }}</h5>
+  <div class="card-text-children">
+  {{ .Inner }}
   </div>
+ </div>
 </div>
