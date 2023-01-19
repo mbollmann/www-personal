@@ -38,4 +38,4 @@ You can [watch me play the piano](TODO) or [listen to some more clips](https://c
 
 ### Trivia
 
-My [Erdős number is 5](https://www.csauthors.net/distance/paul-erdos/marcel-bollmann), my Wikidata ID is [Q48211446](https://www.wikidata.org/wiki/Q48211446), and my first name [is worth 10 points in Scrabble](/img/marcel-scrabble.png).
+My [Erdős number is 4](https://www.csauthors.net/distance/paul-erdos/marcel-bollmann), my Wikidata ID is [Q48211446](https://www.wikidata.org/wiki/Q48211446), and my first name [is worth 10 points in Scrabble](/img/marcel-scrabble.png).

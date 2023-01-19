@@ -80,7 +80,7 @@ to work on "Morphologically-Informed Representations for NLP" (MorphIRe).
 
 <img src="/img/morph_seg.png" title="Different strategies for constructing word representations in NLP" class="img-fluid px-2 px-md-3 mb-3" />
 
-This resulted in a large-scale analysis of [the role of morphology for error analysis in NLP](https://www.aclweb.org/anthology/2021.eacl-main.162/), which was awarded "Best Long Paper" at EACL 2021.  I have also worked on improved word segmentation algorithms in highly multilingual settings, for which I expect to publish results before the end of 2021, and contributed to a [meta-study of how we cite older literature](https://www.aclweb.org/anthology/2020.acl-main.699).
+This resulted in a large-scale analysis of [the role of morphology for error analysis in NLP](https://www.aclweb.org/anthology/2021.eacl-main.162/), which was awarded "Best Long Paper" at EACL 2021.  I have also worked on word segmentation algorithms in highly multilingual settings <i>(forthcoming)</i>, and contributed to a [meta-study of how NLP researchers cite older literature](https://www.aclweb.org/anthology/2020.acl-main.699).
 
 <p><img src="/img/Flag_of_Europe.svg" title="Flag of Europe" class="float-right py-1 px-2 px-md-3" width="135" />
 The project was funded from the European Union's Horizon&nbsp;2020 research and innovation programme under the Marie Skłodowska-Curie grant agreement No.&nbsp;845995.
