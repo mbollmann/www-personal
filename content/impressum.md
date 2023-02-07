@@ -21,7 +21,7 @@ Sweden
 ### Kontakt · Contact
 
 <i class="fas fa-fw fa-envelope"></i> [legal@bollmann.me](mailto:legal@bollmann.me) \\
-<i class="fas fa-fw fa-phone"></i> +46 73 673 59 28
+<i class="fas fa-fw fa-phone"></i> +46 13 28 1572
 <i class="fas fa-fw fa-home"></i> [marcel.bollmann.me](http://marcel.bollmann.me/)
 
 ### Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV ·<br />Person responsible for content in accordance with § 55 Abs. 2 RStV
@@ -29,9 +29,8 @@ Sweden
 <address class="ml-4">
 <p>
 Marcel Bollmann<br />
-Tekniska Högskolan i Jönköping AB<br />
-Gjuterigatan 5, Rum D2408<br />
-55318 Jönköping<br />
+Kunskapslänken 92 lgh 1102<br />
+58328 Linköping<br />
 Sweden
 </p>
 </address>
