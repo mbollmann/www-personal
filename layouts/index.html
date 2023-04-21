@@ -1,29 +1,33 @@
 {{ define "main" }}
 <div>
-  <img src="{{ "/img/mmb2.jpg" | relURL }}" alt="Marcel Bollmann" class="mx-2 mx-md-4 mt-4 mb-2 shadow profile-pic" />
+  <img src="{{ "/img/mmb2.jpg" | relURL }}" alt="Marcel Bollmann (Picture by Jönköping University)" class="mx-2 mx-md-4 mt-4 mb-2 shadow profile-pic" />
   {{ .Content }}
 </div>
 
 <div class="row">
-  <div class="col-md-6 col-lg-4 order-md-2">
+  <div class="col-md-6 col-lg-8 order-md-1">
     <div class="card h-100 border-secondary">
       <div class="card-body">
         <h5 class="card-title">News</h5>
-        <h6 class="card-subtitle mb-2 text-muted">January 19, 2023</h6>
+        <h6 class="card-subtitle mb-2 text-muted">April 21, 2023</h6>
         <p class="card-text">
-          Goodbye Jönköping, hello <a href="https://liu.se/en/employee/marbo59">Linköping</a>! 😊
+          <ul class="mt-0">
+            <li class="mb-1">On May 5th 13:15–15:00, I'll give a <a href="https://gu-clasp.github.io/news/Seminar%20by%20Marcel%20Bollmann/">seminar talk at CLASP</a>. You can join via Zoom!</li>
+            <li>Alternatively, you can meet me later in May at <a href="https://www.nodalida2023.fo/">NoDaLiDa on the Faroe Islands</a>. 😊</li>
+          </ul>
         </p>
 
-        <h6 class="card-subtitle mt-4 mb-2 text-muted">November 17, 2022</h6>
+        <h6 class="card-subtitle mt-4 mb-2 text-muted">January 16, 2023</h6>
         <p class="card-text">
-          I will join the <a href="https://www.ida.liu.se/divisions/aiics/nlp/">NLP group at Linköping University</a> as Associate Professor in January!
+          Goodbye Jönköping! I joined the <a href="https://www.ida.liu.se/divisions/aiics/nlp/">NLP group at Linköping University</a> as <a href="https://liu.se/en/employee/marbo59">Associate Professor</a>.
+        </p>
+
+        <h6 class="card-subtitle mt-4 mb-2 text-muted">April 23, 2021</h6>
+        <p class="card-text">
+          My EACL paper with Anders Søgaard on <a href="https://www.aclweb.org/anthology/2021.eacl-main.162/">&ldquo;Error Analysis and the Role of Morphology&rdquo;</a> has received a best paper award!
         </p>
 
         <!--
-        <h6 class="card-subtitle mt-4 mb-2 text-muted">April 23, 2021</h6>
-        <p class="card-text">
-          Our EACL paper on <a href="https://www.aclweb.org/anthology/2021.eacl-main.162/">&ldquo;Error Analysis and the Role of Morphology&rdquo;</a> has received a best paper award!
-        </p>
         <h6 class="card-subtitle mt-4 mb-2 text-muted">January 26, 2021</h6>
         <p class="card-text">
           Long paper accepted at EACL 2021 on &ldquo;Error Analysis and the Role of Morphology&rdquo;: <a href="https://github.com/coastalcph/eacl2021-morpherror/blob/main/paper-cameraready.pdf">read the camera-ready here</a>.
@@ -39,29 +43,27 @@
     </div>
   </div>
 
-  <div class="col-md-6 col-lg-8 order-md-1">
+  <div class="col-md-6 col-lg-4 order-md-2">
     <div class="card h-100 border-secondary">
       <div class="card-body">
         <h5 class="card-title">Contact</h5>
         <div class="row">
           <div class="col">
             <address class="card-text">
-              <strong>Online</strong><br />
+              <!-- <strong>Online</strong><br /> -->
               <i class="far fa-fw fa-envelope mr-2"></i>marcel.b<span class="d-none">wallabies-are-awesome</span>ollmann<span class="d-none">.@...___@.</span>@liu.se <span class="ml-2 small"><a href="liu-pgp-key.asc"><i class="fas fa-key"></i> PGP KEY</a></span><br />
               <i class="ai ai-fw ai-semantic-scholar mr-2"></i><a href="https://www.semanticscholar.org/author/Marcel-Bollmann/34887843">Semantic Scholar profile</a><br />
               <i class="ai ai-fw ai-google-scholar mr-2"></i><a href="https://scholar.google.com/citations?user=l3pm9QkAAAAJ">Google Scholar profile</a><br />
               <!-- <i class="fab fa-fw fa-twitter mr-2"></i><a href="https://twitter.com/mmbollmann">Twitter (@mmbollmann)</a><br /> -->
-              <i class="fab fa-fw fa-mastodon mr-2"></i><a rel="me" href="https://sigmoid.social/@mbollmann">Mastodon (@mbollmann@sigmoid.social)</a><br />
+              <i class="fab fa-fw fa-mastodon mr-2"></i><a rel="me" href="https://sigmoid.social/@mbollmann">@mbollmann@sigmoid.social</a><br />
               <i class="fab fa-fw fa-github mr-2"></i><a href="https://github.com/mbollmann/">GitHub (@mbollmann)</a><br />
               <i class="ai ai-fw ai-orcid mr-2"></i><a href="https://orcid.org/0000-0003-2598-8150">ORCID (0000-0003-2598-8150)</a><!-- <br /> -->
             </address>
-          </div>
-          <div class="col">
             <address class="card-text">
               <strong>Offline</strong><br />
-              Campus Valla, E-huset, Room 2G:446<br />
-              Department of Computer and Information Science (IDA)<br />
-              Linköping University, Sweden<br/>
+              Campus Valla, E-huset, <a href="https://www.ida.liu.se/department/location/location.en.shtml?login=marbo59">Room 2G:446</a><br />
+              <!-- Department of Computer and Information Science (IDA)<br />
+                   Linköping University, Sweden<br/> -->
               <br/>
               <i class="fas fa-fw fa-phone"></i> +46 13 28 1572
               <!--

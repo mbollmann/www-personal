@@ -94,10 +94,10 @@ technology has always been an interest of mine.
 
 {{% info_card
     title="ACL Anthology"
-    href="https://aclweb.org/anthology" %}}
+    href="https://aclanthology.org" %}}
 
 I'm **Site Development Lead** for the ACL Anthology and have implemented the
-recent static rewrite, including some design and layout changes.
+2019 static rewrite, including some design and layout changes.
 {{% /info_card %}}
 
 {{% info_card

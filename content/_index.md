@@ -1,7 +1,7 @@
 ---
 Title: About me
 description: Associate Professor in Natural Language Processing at Linköping University, Sweden.  Previously worked at Jönköping University, University of Copenhagen, and Ruhr-Universität Bochum.  Main research areas include NLP for historical documents, multilinguality, and linguistically-informed approaches to NLP.
-date: "2022-02-07"
+date: "2023-04-21"
 ---
 
 ## About me
@@ -26,3 +26,4 @@ various research projects related to [computational historical
 linguistics](https://www.linguistics.rub.de/comphist/) at Ruhr-Universität Bochum,
 Germany, where I also obtained my PhD degree in computational linguistics.
 
+I also volunteer as Site Development Lead for the [ACL Anthology](https://aclanthology.org/).

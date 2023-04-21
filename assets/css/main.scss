@@ -80,10 +80,13 @@ body {
 }
 
 .profile-pic {
-  border-radius: 8% !important;
-  width: 40vw !important;
-  max-width: 150px !important;
-  float: right;
+    aspect-ratio: .75 !important;
+    object-fit: cover !important;
+    object-position: center;
+    border-radius: 8% !important;
+    width: 40vw !important;
+    max-width: 200px !important;
+    float: right;
 }
 
 $color-cv-border: #C3D6E3;
