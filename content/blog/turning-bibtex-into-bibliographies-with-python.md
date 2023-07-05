@@ -1,6 +1,7 @@
 ---
 Title: Turning BibTeX into bibliographies with Python (is a nightmare)
-date: "2023-07-04"
+date: "2023-07-05"
+layout: blog
 ---
 
 Academic websites often contain lists of publications, and at least in my field,
@@ -13,8 +14,9 @@ so naturally I'd like to build publication lists directly from BibTeX files —
 add a new paper to the BibTeX source, render its reference on the website, easy!
 My programming language of choice is Python, which has such an enormous
 ecosystem of libraries that this should be an easy task, right? …Right?
+<!--more-->
 
-## Problem statement
+### Problem statement
 
 Let's spell out what exactly I'm trying to achieve. I want to have a script that
 can:
@@ -51,14 +53,13 @@ To (something like) this:
   for Computational Linguistics: Main Volume_, pages 1887–1900,
   Online. Association for Computational Linguistics.
 
-- - -
 
-## Existing Python libraries
+### Existing Python libraries
 
 Ideally I want to do this in Python, since it's what I and my colleagues know
 best. So let's see what libraries are out there that can help us!
 
-### BibtexParser
+#### BibtexParser
 
 One of the first search results that come up is
 [BibtexParser](https://github.com/sciunto-org/python-bibtexparser), which looks
@@ -127,7 +128,7 @@ I wasn't satisfied with this approach — I'd like the formatting to be done in 
 more systematic way as well.
 
 
-### Pybtex
+#### Pybtex
 
 This is where we find [Pybtex](https://pybtex.org/), a "BibTeX-compatible
 bibliography processor written in Python". It's intended to work as a drop-in
@@ -198,7 +199,7 @@ I'm still wondering if there isn't something better out there, so let's continue
 the search.
 
 
-### Citeproc-py
+#### Citeproc-py
 
 [Citeproc](https://en.wikipedia.org/wiki/CiteProc) is the name for any tool that
 uses [Citation Style Language (CSL)](https://citationstyles.org/) files to
@@ -310,9 +311,8 @@ expects and recognizes.
 In summary, while Citeproc-py handles the formatting part of our problem quite
 nicely, now the parsing part suddenly requires a lot more effort.
 
-- - -
 
-## Citation styles and (the lack of) semantic markup
+### Citation styles and (the lack of) semantic markup
 
 Before I present the solution that I settled with, I need to pause for a moment
 to rant about the way that citation styles and formatting libraries handle
@@ -361,9 +361,8 @@ so you'd have to render `<bib-author>` instead of `<span
 class="bib-author">`). I'm not sure if that falls under an intended use of this
 feature, though, and I haven't tried going this route.
 
-- - -
 
-## Frankensteining a solution
+### Frankensteining a solution
 
 Before I embarked on this journey, I only had an incredibly hacky script that I
 used for generating the [publication list on my personal

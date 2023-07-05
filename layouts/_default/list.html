@@ -1,0 +1,27 @@
+{{ define "main" }}
+  {{ .Content }}
+
+  {{ $paginator := .Paginate (.Pages | lang.Merge (where .Sites.First.RegularPages "Section" .Section)) }}
+  {{ $section_to_display :=  .Sections | default $paginator.Pages }}
+  {{ range $section_to_display }}
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h5>
+        <h6 class="card-subtitle mb-2"><date class="text-muted" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+          {{ .Date.Format "January 2, 2006" }}
+        </date></h6>
+        <div class="card-text-children">
+          {{ if .Params.description  }}
+              {{ .Params.description | markdownify }}
+          {{ else }}
+              {{ .Summary  }}
+          {{ end }}
+        </div>
+        <a href="{{ .RelPermalink }}" class="card-link d-inline-block mt-2">
+          Read More &raquo;
+        </a>
+      </div>
+    </div>
+
+  {{ end }}
+{{ end }}

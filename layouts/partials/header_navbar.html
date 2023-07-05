@@ -23,7 +23,7 @@
                 </li>
             {{ else }}
                 <li class="nav-item">
-                    <a class="nav-link {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}" href="{{ .URL }}">
+                    <a class="nav-link {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}active{{ end }}" href="{{ .URL }}">
                         {{ .Pre }}
                         <span class="text-uppercase">{{ .Name }}</span>
                     </a>

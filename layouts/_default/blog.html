@@ -1,0 +1,17 @@
+{{ define "main" }}
+  <h2>{{ .Title }}</h2>
+  <h5 class="mb-4"><date class="text-muted" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+      {{ .Date.Format "January 2, 2006" }}
+  </date></h5>
+
+  <aside class="card float-lg-right mt-2 mb-4 mx-2 mx-lg-3">
+    <div class="card-header">Contents</div>
+    <div class="card-body">
+      {{ .TableOfContents }}
+    </div>
+  </aside>
+
+  <section class="blog-content pr-2 pr-md-3">
+    {{ .Content }}
+  </section>
+{{ end }}

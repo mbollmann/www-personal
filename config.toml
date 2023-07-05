@@ -10,3 +10,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   [markup.highlight]
     style = 'friendly'
+
+  [markup.tableOfContents]
+  startLevel = 3
+  endLevel = 5
