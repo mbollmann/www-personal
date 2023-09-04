@@ -1,5 +1,6 @@
 ---
 Title: Turning BibTeX into bibliographies with Python (is a nightmare)
+description: An overview of Python libraries for converting BibTeX to formatted bibliographies, and my own frankensteined solution.
 date: "2023-07-05"
 layout: blog
 ---
