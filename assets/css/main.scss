@@ -264,6 +264,17 @@ dl.cv-entries {
     padding-left: 1.5rem;
 }
 
+.news-date {
+    @extend .text-muted;
+    font-family: $headings-font-family;
+    font-weight: 500;
+    min-width: 7em;
+}
+
+.news-row {
+    @extend .mb-2;
+}
+
 .highlight pre {
     padding: .75rem 1.25rem;
 }

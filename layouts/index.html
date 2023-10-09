@@ -9,42 +9,42 @@
     <div class="card h-100 border-secondary">
       <div class="card-body">
         <h5 class="card-title">News</h5>
-        <h6 class="card-subtitle mb-2 text-muted">September 25, 2023</h6>
-        <p class="card-text">
-          Our group is <a href="https://www.ida.liu.se/divisions/aiics/nlp/phd-student/">hiring up to 3 PhD students</a> for research on large language models.
-        </p>
-
-        <h6 class="card-subtitle mt-4 mb-2 text-muted">July 5, 2023</h6>
-        <p class="card-text">
-          {{ with .Site.GetPage "/blog/turning-bibtex-into-bibliographies-with-python.md" }}
-            I wrote “<a href="{{ .RelPermalink }}">{{ .Title }}</a>.”
-          {{ end }}
-        </p>
-
-        <h6 class="card-subtitle mt-4 mb-2 text-muted">May 5, 2023</h6>
-        <p class="card-text">
-          I gave a <a href="https://gu-clasp.github.io/events/seminars/2023-05-05/">seminar talk on “NLP beyond English”</a> at CLASP in Gothenburg.
-        </p>
+        <div class="container__">
+          <div class="row news-row">
+            <div class="col-12 col-lg-2 news-date">2023-09-25</div>
+            <div class="col">
+              Our group is <a href="https://www.ida.liu.se/divisions/aiics/nlp/phd-student/">hiring up to 3 PhD students</a> for research on large language models.
+            </div>
+          </div>
+          <div class="row news-row">
+            <div class="col-12 col-lg-2 news-date">2023-07-05</div>
+            <div class="col">
+              {{ with .Site.GetPage "/blog/turning-bibtex-into-bibliographies-with-python.md" }}
+              I wrote “<a href="{{ .RelPermalink }}">{{ .Title }}</a>.”
+              {{ end }}
+            </div>
+          </div>
+          <div class="row news-row">
+            <div class="col-12 col-lg-2 news-date">2023-05-05</div>
+            <div class="col">
+              I gave a <a href="https://gu-clasp.github.io/events/seminars/2023-05-05/">seminar talk on “NLP beyond English”</a> at CLASP in Gothenburg.
+            </div>
+          </div>
+          <div class="row news-row">
+            <div class="col-12 col-lg-2 news-date">2023-01-16</div>
+            <div class="col">
+              I joined the <a href="https://www.ida.liu.se/divisions/aiics/nlp/">NLP group at Linköping University</a> as <a href="https://liu.se/en/employee/marbo59">Associate Professor</a>.
+            </div>
+          </div>
+          <div class="row news-row">
+            <div class="col-12 col-lg-2 news-date">2021-04-23</div>
+            <div class="col">
+              My EACL paper with Anders Søgaard on <a href="https://www.aclweb.org/anthology/2021.eacl-main.162/">&ldquo;Error Analysis and the Role of Morphology&rdquo;</a> has received a best paper award!
+            </div>
+          </div>
+        </div>
 
         <!--
-        <h6 class="card-subtitle mt-4 mb-2 text-muted">April 21, 2023</h6>
-        <p class="card-text">
-          <ul class="mt-0">
-            <li class="mb-1">On May 5th 13:15–15:00, I'll give a <a href="https://gu-clasp.github.io/news/Seminar%20by%20Marcel%20Bollmann/">seminar talk at CLASP</a>. You can join via Zoom!</li>
-            <li>Alternatively, you can meet me later in May at <a href="https://www.nodalida2023.fo/">NoDaLiDa on the Faroe Islands</a>. 😊</li>
-          </ul>
-        </p>
-
-        <h6 class="card-subtitle mt-4 mb-2 text-muted">January 16, 2023</h6>
-        <p class="card-text">
-          Goodbye Jönköping! I joined the <a href="https://www.ida.liu.se/divisions/aiics/nlp/">NLP group at Linköping University</a> as <a href="https://liu.se/en/employee/marbo59">Associate Professor</a>.
-        </p>
-
-        <h6 class="card-subtitle mt-4 mb-2 text-muted">April 23, 2021</h6>
-        <p class="card-text">
-          My EACL paper with Anders Søgaard on <a href="https://www.aclweb.org/anthology/2021.eacl-main.162/">&ldquo;Error Analysis and the Role of Morphology&rdquo;</a> has received a best paper award!
-        </p>
-
         <h6 class="card-subtitle mt-4 mb-2 text-muted">January 26, 2021</h6>
         <p class="card-text">
           Long paper accepted at EACL 2021 on &ldquo;Error Analysis and the Role of Morphology&rdquo;: <a href="https://github.com/coastalcph/eacl2021-morpherror/blob/main/paper-cameraready.pdf">read the camera-ready here</a>.
