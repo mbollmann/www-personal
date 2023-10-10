@@ -6,3 +6,5 @@ tmp/
 /data/bibliography.yaml
 public/
 resources/
+/.venv/
+/.hugo_build.lock
