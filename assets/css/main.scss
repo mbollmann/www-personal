@@ -90,6 +90,7 @@ body {
 }
 
 $color-cv-border: #C3D6E3;
+$color-cv-gold: #D4AF37;
 
 .cv-border {
   border-left-width: 8px;
@@ -101,10 +102,13 @@ $color-cv-border: #C3D6E3;
   border-left-color: $color-cv-border;
 }
 .cv-border-2 {
-  border-left-color: darken( $color-cv-border, 15% );
+  border-left-color: darken( $color-cv-border, 13% );
 }
 .cv-border-3 {
-  border-left-color: darken( $color-cv-border, 30% );
+  border-left-color: darken( $color-cv-border, 26% );
+}
+.cv-border-4 {
+  border-left-color: darken( $color-cv-border, 40% );
 }
 
 /* This essentially reimplements the old Bootstrap dl-horizontal class */
