@@ -12,7 +12,7 @@ date: "2020-12-01"
 
 #### 2023
 
-+ {{< bibitem bollmann-etal-2023-two-decades "nobib" >}}
++ {{< bibitem bollmann-etal-2023-two-decades >}}
 + {{< bibitem lent-etal-2023-creoleval "nobib" >}}
 
 #### 2021

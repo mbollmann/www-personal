@@ -26,4 +26,8 @@ various research projects related to [computational historical
 linguistics](https://www.linguistics.rub.de/comphist/) at Ruhr-Universität Bochum,
 Germany, where I also obtained my PhD degree in computational linguistics.
 
-I also volunteer as Site Development Lead for the [ACL Anthology](https://aclanthology.org/).
+I also volunteer as Site Development Lead for the [ACL
+Anthology](https://aclanthology.org/), participate in the steering group of
+[Nationella Språkbanken](https://sprakbanken.se), and will be editor-in-chief of
+the [Northern European Association for Language
+Technology](https://tekstlab.uio.no/nealt/) from 2024.
