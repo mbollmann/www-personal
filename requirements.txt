@@ -1,5 +1,5 @@
 black
 docopt
 PyYAML
-citeproc-py
-citeproc-py-styles
+rich
+git+https://github.com/mbollmann/yabibf.git

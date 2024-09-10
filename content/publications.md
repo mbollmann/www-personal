@@ -10,10 +10,13 @@ date: "2020-12-01"
 
 ## Publications
 
+#### 2024
+
++ {{< bibitem lent-etal-2024-creoleval >}}
+
 #### 2023
 
 + {{< bibitem bollmann-etal-2023-two-decades >}}
-+ {{< bibitem lent-etal-2023-creoleval "nobib" >}}
 
 #### 2021
 
