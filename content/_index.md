@@ -1,7 +1,7 @@
 ---
 Title: About me
 description: Associate Professor in Natural Language Processing at Linköping University, Sweden.  Previously worked at Jönköping University, University of Copenhagen, and Ruhr-Universität Bochum.  Main research areas include NLP for historical documents, multilinguality, and linguistically-informed approaches to NLP.
-date: "2024-05-17"
+date: "2024-11-19"
 ---
 
 ## About me
