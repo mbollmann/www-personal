@@ -1,5 +1,0 @@
-black
-docopt
-PyYAML
-rich
-git+https://github.com/mbollmann/yabibf.git

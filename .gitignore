@@ -6,6 +6,7 @@
 *~
 *#
 
+/bib/*.yml
 /website/data/bibliography.yaml
 /website/public/
 /website/resources/
