@@ -9,13 +9,13 @@ Converts all entries in a bibliography file to a data file (intended for static
 site generation), currently in YAML format.
 
 Options:
-  --bib=DIRECTORY     Directory with .bib files to read from. [default: {scriptdir}/assets/bib]
-  --out=OUTFILE       Data file to write to. [default: {scriptdir}/data/bibliography.yaml]
+  --bib=DIRECTORY     Directory with .bib files to read from. [default: {scriptdir}/../bib]
+  --out=OUTFILE       Data file to write to. [default: {scriptdir}/../website/data/bibliography.yaml]
   --names=NAMEFILE    File with names that will be marked up in the generated bibliography.
-                      [default: {scriptdir}/assets/bib/groupmember-names.txt]
+                      [default: {scriptdir}/../bib/groupmember-names.txt]
   --style=STYLE       Name of citation style to use; must be a filename or name of a style
                       findable by citeproc-py-styles.
-                      [default: {scriptdir}/assets/bib/association-for-computational-linguistics.csl]
+                      [default: {scriptdir}/../bib/association-for-computational-linguistics.csl]
   --debug             Output debug-level log messages + log messages from other libraries.
   -h, --help          Display this helpful text.
 """

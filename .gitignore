@@ -1,10 +1,12 @@
-html/
-out/
-tmp/
-
-/src/publications/personal.bib.bak
-/data/bibliography.yaml
-public/
-resources/
+**/__pycache__
+*.bak
 /.venv/
-/.hugo_build.lock
+
+# backup files
+*~
+*#
+
+/website/data/bibliography.yaml
+/website/public/
+/website/resources/
+/website/.hugo_build.lock

@@ -1,6 +1,8 @@
+[working-directory: 'website']
 build: bibtex
   hugo --minify --cleanDestinationDir
 
+[working-directory: 'website']
 serve: bibtex
   hugo server
 
@@ -12,8 +14,9 @@ venv:
   fi
 
 bibtex: venv
-  ./.venv/bin/python3 ./process_bibtex.py
+  ./.venv/bin/python3 bin/process_bibtex.py
 
+[working-directory: 'website']
 upload: build
   find public/ -type d -exec chmod a+rx {} \;
   find public/ -type f -exec chmod a+r {} \;
