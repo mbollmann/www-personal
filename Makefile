@@ -31,3 +31,11 @@ bib/anthology.bib: pyproject.toml bin/fetch_anthology_bib.py
 
 %.yml: %.bib
 	hayagriva $< > $@
+
+# Cleaning up
+.PHONY: clean
+clean:
+	rm -f bib/anthology.bib cv/cv.pdf website/data/bibliography.yaml website/.hugo_build.lock
+	find bib -name "*.yml" -exec rm -f {} \;
+	rm -rf website/public/
+	rm -rf website/resources/
