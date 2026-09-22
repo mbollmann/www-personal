@@ -1,34 +1,20 @@
 {{ $key := .Get 0 }}
 {{ $opts := .Get 1 }}
-{{ $extra_badge := .Get 2 }}
-{{ with index $.Site.Data.bibliography $key }}
-<div class="bibitem{{ if in $opts "muted" }} text-muted{{ end }}">
+{{- with index $.Site.Data.bibliography $key }}
+<div class="bibitem{{ if in $opts "muted" }} text-body-tertiary{{ end }}">
   {{ .html | safeHTML }}
-  {{ if not (in $opts "nobib") }}
-  <a class="badge text-bg-light" role="button" data-bs-toggle="collapse" href="#{{ anchorize $key }}" aria-expanded="false" aria-controls="collapseExample" style="vertical-align: text-bottom;">
+  {{- if not (in $opts "nobib") }}
+  <a class="badge rounded-pill text-bg-light" role="button" data-bs-toggle="collapse" href="#{{ anchorize $key }}" aria-expanded="false" aria-controls="collapseExample" style="vertical-align: text-bottom;">
     BibTeX
   </a>
-  {{ end }}
-  {{ with .hugo_attach }}
-    {{ range (split . "|") }}
-      {{ $label := index (split . "»") 0 }}
-      {{ $href := index (split . "»") 1 }}
-      <a class="badge text-bg-info" href="{{ $href | absURL }}" style="vertical-align: text-bottom;">
-        {{ $label }}
-      </a>
-    {{ end }}
-  {{ end }}
-  {{ with $extra_badge }}
-    {{ $symbol := index (split . ",") 0 }}
-    {{ $label := index (split . ",") 1 }}
-    <span class="badge text-bg-warning" style="vertical-align: text-bottom;">
-      <i class="fas {{ $symbol }} pe-1"></i>{{ $label }}
-    </span>
-  {{ end }}
+  {{- end }}
+  {{- $.InnerDeindent -}}
 </div>
 <div class="collapse" id="{{ anchorize $key }}">
   <pre class="mt-2 border border-rounded py-2 px-3">
     {{- .raw -}}
   </pre>
 </div>
-{{ end }}
+{{- else }}
+  {{- errorf "The %q shortcode was unable to find %s" $.Name $key }}
+{{- end -}}

@@ -1,0 +1,16 @@
+{{- $bg := or (.Get "bg") "info" }}
+{{- $href := or (.Get "href") "" }}
+{{- $icon := or (.Get "icon") "" }}
+{{- $label := or (.Get "label") "" }}
+
+{{- if $href }}
+<a class="badge rounded-pill text-bg-{{ $bg }}" href="{{ $href | absURL }}" style="vertical-align: text-bottom;">
+  {{- with $icon }}<i class="{{ . }} pe-1"></i>{{- end -}}
+  {{ $label }}
+</a>
+{{- else }}
+<span class="badge rounded-pill text-bg-{{ $bg }}" style="vertical-align: text-bottom;">
+  {{- with $icon }}<i class="{{ . }} pe-1"></i>{{- end -}}
+  {{ $label }}
+</span>
+{{- end }}
