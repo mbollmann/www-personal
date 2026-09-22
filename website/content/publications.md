@@ -5,14 +5,24 @@ menu:
   main:
     weight: 50
 main_class: page-publications
-date: "2020-12-01"
+date: "2026-09-22"
 ---
 
 ## Publications
 
+#### 2026
+
++ {{< bibitem holmström2026systematiccomparisonmultilingualinterpretability nobib />}}
++ {{< bibitem oji2026probingfactualknowledgetransfer nobib />}}
++ {{< bibitem tatariya-etal-2026-good />}}
++ {{< bibitem kunz-etal-2026-dataset />}}
+
+#### 2025
+
++ {{< bibitem glocker2025growmergescalingstrategies />}}
+
 #### 2024
 
-+ {{< bibitem tatariya2024goodwikipedia nobib />}}
 + {{< bibitem lent-etal-2024-creoleval />}}
 
 #### 2023
