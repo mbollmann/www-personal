@@ -9,7 +9,7 @@ date: "2019-05-06"
 
 <p class="text-muted">Angaben gemäß § 5 TMG · Information in accordance with § 5 TMG (required by German law)</p>
 
-<address class="ml-4">
+<address class="ms-4">
 <p>
 Marcel Bollmann<br />
 Kunskapslänken 92 lgh 1102<br />
@@ -26,7 +26,7 @@ Sweden
 
 ### Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV ·<br />Person responsible for content in accordance with § 55 Abs. 2 RStV
 
-<address class="ml-4">
+<address class="ms-4">
 <p>
 Marcel Bollmann<br />
 Kunskapslänken 92 lgh 1102<br />

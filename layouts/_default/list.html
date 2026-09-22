@@ -1,7 +1,7 @@
 {{ define "main" }}
   {{ .Content }}
 
-  {{ $paginator := .Paginate (.Pages | lang.Merge (where .Sites.First.RegularPages "Section" .Section)) }}
+  {{ $paginator := .Paginate (where .Site.RegularPages "Section" .Section) }}
   {{ $section_to_display :=  .Sections | default $paginator.Pages }}
   {{ range $section_to_display }}
     <div class="card">

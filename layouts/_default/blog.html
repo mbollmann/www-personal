@@ -4,14 +4,14 @@
       {{ .Date.Format "January 2, 2006" }}
   </date></h5>
 
-  <aside class="card float-lg-right mt-2 mb-4 mx-2 mx-lg-3">
+  <aside class="card float-lg-end mt-2 mb-4 mx-2 mx-lg-3">
     <div class="card-header">Contents</div>
     <div class="card-body">
       {{ .TableOfContents }}
     </div>
   </aside>
 
-  <section class="blog-content pr-2 pr-md-3">
+  <section class="blog-content pe-2 pe-md-3">
     {{ .Content }}
   </section>
 {{ end }}

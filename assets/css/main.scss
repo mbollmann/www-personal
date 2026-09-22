@@ -4,55 +4,79 @@ $color-mercury: #E5E5E5;
 $color-silver: #CCCCCC;
 $color-wild-sand: #F4F4F4;
 
-$primary:       $color-blueish-ming;
-$light:         $color-wild-sand;
+$font-family-sans-serif:      Lato, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$headings-font-family:        "Fira Sans", $font-family-sans-serif;
 
 $link-color: lighten($color-blueish-ming, 8%);
 $link-hover-color: lighten($color-blueish-ming, 20%);
 
-$font-family-sans-serif:      Lato, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-$headings-font-family:        "Fira Sans", $font-family-sans-serif;
+/* Bootstrap is loaded pre-compiled from a CDN (see baseof.html), so theming
+   happens by overriding its CSS custom properties instead of Sass variables. */
+@function rgb-triple($color) {
+  @return #{round(red($color))}, #{round(green($color))}, #{round(blue($color))};
+}
 
-/* Required Bootstrap components */
-@import 'vendor/bootstrap/scss/functions';
-@import 'vendor/bootstrap/scss/variables';
-@import 'vendor/bootstrap/scss/mixins';
+:root {
+  --bs-primary: #{$color-blueish-ming};
+  --bs-primary-rgb: #{rgb-triple($color-blueish-ming)};
+  --bs-link-color: #{$link-color};
+  --bs-link-color-rgb: #{rgb-triple($link-color)};
+  --bs-link-hover-color: #{$link-hover-color};
+  --bs-link-hover-color-rgb: #{rgb-triple($link-hover-color)};
+  --bs-body-font-family: #{$font-family-sans-serif};
+  --bs-font-sans-serif: #{$font-family-sans-serif};
+}
 
-/* Optional Bootstrap components -- we only include those we need */
-@import 'vendor/bootstrap/scss/root';
-@import 'vendor/bootstrap/scss/reboot';
-@import 'vendor/bootstrap/scss/type';
-@import 'vendor/bootstrap/scss/images';
-@import 'vendor/bootstrap/scss/code';
-@import 'vendor/bootstrap/scss/grid';
-@import 'vendor/bootstrap/scss/tables';
-@import 'vendor/bootstrap/scss/forms';
-@import 'vendor/bootstrap/scss/buttons';
-@import 'vendor/bootstrap/scss/transitions';
-@import 'vendor/bootstrap/scss/dropdown';
-// @import 'vendor/bootstrap/scss/button-group';
-// @import 'vendor/bootstrap/scss/input-group';
-// @import 'vendor/bootstrap/scss/custom-forms';
-@import 'vendor/bootstrap/scss/nav';
-@import 'vendor/bootstrap/scss/navbar';
-@import 'vendor/bootstrap/scss/card';
-// @import 'vendor/bootstrap/scss/breadcrumb';
-@import 'vendor/bootstrap/scss/pagination';
-@import 'vendor/bootstrap/scss/badge';
-// @import 'vendor/bootstrap/scss/jumbotron';
-@import 'vendor/bootstrap/scss/alert';
-// @import 'vendor/bootstrap/scss/progress';
-// @import 'vendor/bootstrap/scss/media';
-@import 'vendor/bootstrap/scss/list-group';
-@import 'vendor/bootstrap/scss/close';
-// @import 'vendor/bootstrap/scss/toasts';
-// @import 'vendor/bootstrap/scss/modal';
-@import 'vendor/bootstrap/scss/tooltip';
-// @import 'vendor/bootstrap/scss/popover';
-// @import 'vendor/bootstrap/scss/carousel';
-// @import 'vendor/bootstrap/scss/spinners';
-@import 'vendor/bootstrap/scss/utilities';
-@import 'vendor/bootstrap/scss/print';
+h1, h2, h3, h4, h5, h6 {
+  font-family: $headings-font-family;
+}
+
+// Bootstrap 5 underlines links by default (BS4 only underlined on hover);
+// restore the old behavior.
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+// BS4's .navbar-brand and .nav-link never underlined on hover/focus even
+// though they're links; their higher selector specificity overrides the
+// generic a:hover rule above, matching the old behavior.
+.navbar-brand,
+.nav-link {
+  &:hover, &:focus {
+    text-decoration: none;
+  }
+}
+
+// .btn-primary / .btn-outline-primary bake their colors into component-local
+// custom properties rather than referencing --bs-primary, so they need
+// their own overrides to pick up the custom brand color.
+.btn-primary {
+  --bs-btn-bg: #{$color-blueish-ming};
+  --bs-btn-border-color: #{$color-blueish-ming};
+  --bs-btn-hover-bg: #{mix(black, $color-blueish-ming, 15%)};
+  --bs-btn-hover-border-color: #{mix(black, $color-blueish-ming, 20%)};
+  --bs-btn-active-bg: #{mix(black, $color-blueish-ming, 20%)};
+  --bs-btn-active-border-color: #{mix(black, $color-blueish-ming, 25%)};
+  --bs-btn-disabled-bg: #{$color-blueish-ming};
+  --bs-btn-disabled-border-color: #{$color-blueish-ming};
+  --bs-btn-focus-shadow-rgb: #{rgb-triple($color-blueish-ming)};
+}
+
+.btn-outline-primary {
+  --bs-btn-color: #{$color-blueish-ming};
+  --bs-btn-border-color: #{$color-blueish-ming};
+  --bs-btn-hover-bg: #{$color-blueish-ming};
+  --bs-btn-hover-border-color: #{$color-blueish-ming};
+  --bs-btn-active-bg: #{$color-blueish-ming};
+  --bs-btn-active-border-color: #{$color-blueish-ming};
+  --bs-btn-disabled-color: #{$color-blueish-ming};
+  --bs-btn-disabled-border-color: #{$color-blueish-ming};
+  --bs-btn-focus-shadow-rgb: #{rgb-triple($color-blueish-ming)};
+}
 
 @import 'vendor/academicons';
 
@@ -61,19 +85,28 @@ body {
 }
 
 #main-container {
-  background: $white;
+  background: #fff;
+}
+
+// Bootstrap utilities that aren't part of the default CDN build (negative
+// margins are opt-in and not included in the prebuilt bootstrap.min.css).
+.ms-n4 {
+  margin-left: -1.5rem !important;
+}
+.mt-n3 {
+  margin-top: -1rem !important;
 }
 
 .navbar-brand {
   font-family: 'Montserrat Subrayada', $headings-font-family;
   line-height: 1.2;
 }
-@include media-breakpoint-up(md) {
+@media (min-width: 768px) {
   .navbar-brand {
     font-size: 1.5rem;
   }
 }
-@include media-breakpoint-up(lg) {
+@media (min-width: 992px) {
   .navbar-brand {
     font-size: 1.75rem;
   }
@@ -125,7 +158,7 @@ dl.cv-entries {
     clear: left;
     text-align: left;
   }
-  @include media-breakpoint-up(sm) {
+  @media (min-width: 576px) {
     dt {
       float: left;
       width: 10rem;
@@ -141,14 +174,14 @@ dl.cv-entries {
     margin-bottom: .75rem;
 
     &:empty {
-      @extend .text-muted;
+      color: var(--bs-secondary-color);
     }
     &:empty::before {
       content: '–';
     }
   }
 
-  @include media-breakpoint-up(sm) {
+  @media (min-width: 576px) {
     dd {
       margin-left: 11rem;
     }
@@ -167,15 +200,15 @@ dl.cv-entries {
 }
 
 .card.info-card {
-  @extend .mb-4;
+  margin-bottom: 1.5rem;
 
   .info-card + & {
-    @extend .mt-n3;
+    margin-top: -1rem;
   }
 }
 
 .page-publications {
-  @include media-breakpoint-up(sm) {
+  @media (min-width: 576px) {
     h4 {
       float: left;
     }
@@ -195,7 +228,7 @@ dl.cv-entries {
 }
 
 .bibitem-highlight-name {
-  font-weight: $font-weight-bold;
+  font-weight: 700;
 }
 
 .btn-portal {
@@ -229,10 +262,11 @@ dl.cv-entries {
 
   img {
     width: 100%;
-    @extend .py-2;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
   }
 
-  @include media-breakpoint-up(md) {
+  @media (min-width: 768px) {
     a {
       width: 32%;
 
@@ -242,7 +276,7 @@ dl.cv-entries {
     }
   }
 
-  @include media-breakpoint-up(lg) {
+  @media (min-width: 992px) {
     a {
       width: 24.5%;
 
@@ -252,7 +286,7 @@ dl.cv-entries {
     }
   }
 
-  @include media-breakpoint-up(xl) {
+  @media (min-width: 1200px) {
     a {
       width: 16.4%;
 
@@ -269,14 +303,14 @@ dl.cv-entries {
 }
 
 .news-date {
-    @extend .text-muted;
+    color: var(--bs-secondary-color);
     font-family: $headings-font-family;
     font-weight: 500;
     min-width: 7em;
 }
 
 .news-row {
-    @extend .mb-2;
+    margin-bottom: .5rem;
 }
 
 .highlight pre {

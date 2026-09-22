@@ -45,8 +45,8 @@ Grammatical features covered by this adaption include, among others:
 ### Downloads
 
 <ul>
-<li><a class="btn btn-primary my-1" href="/pub/simplenlg-20140721.zip"><i class="fas fa-file-archive mr-2"></i>SimpleNLG for German (2014-07-21)</a></li>
-<li><a class="btn btn-primary my-1" href="/pub/quick-guide.pdf"><i class="fas fa-file-pdf mr-2"></i>Quick guide (PDF)</a></li>
+<li><a class="btn btn-primary my-1" href="/pub/simplenlg-20140721.zip"><i class="fas fa-file-archive me-2"></i>SimpleNLG for German (2014-07-21)</a></li>
+<li><a class="btn btn-primary my-1" href="/pub/quick-guide.pdf"><i class="fas fa-file-pdf me-2"></i>Quick guide (PDF)</a></li>
 </ul>
 
 {{% /bootstrap/col %}}

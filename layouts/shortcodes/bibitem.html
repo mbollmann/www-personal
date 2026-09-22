@@ -5,7 +5,7 @@
 <div class="bibitem{{ if in $opts "muted" }} text-muted{{ end }}">
   {{ .html | safeHTML }}
   {{ if not (in $opts "nobib") }}
-  <a class="badge badge-light" role="button" data-toggle="collapse" href="#{{ anchorize $key }}" aria-expanded="false" aria-controls="collapseExample" style="vertical-align: text-bottom;">
+  <a class="badge text-bg-light" role="button" data-bs-toggle="collapse" href="#{{ anchorize $key }}" aria-expanded="false" aria-controls="collapseExample" style="vertical-align: text-bottom;">
     BibTeX
   </a>
   {{ end }}
@@ -13,7 +13,7 @@
     {{ range (split . "|") }}
       {{ $label := index (split . "»") 0 }}
       {{ $href := index (split . "»") 1 }}
-      <a class="badge badge-info" href="{{ $href | absURL }}" style="vertical-align: text-bottom;">
+      <a class="badge text-bg-info" href="{{ $href | absURL }}" style="vertical-align: text-bottom;">
         {{ $label }}
       </a>
     {{ end }}
@@ -21,8 +21,8 @@
   {{ with $extra_badge }}
     {{ $symbol := index (split . ",") 0 }}
     {{ $label := index (split . ",") 1 }}
-    <span class="badge badge-warning" style="vertical-align: text-bottom;">
-      <i class="fas {{ $symbol }} pr-1"></i>{{ $label }}
+    <span class="badge text-bg-warning" style="vertical-align: text-bottom;">
+      <i class="fas {{ $symbol }} pe-1"></i>{{ $label }}
     </span>
   {{ end }}
 </div>
