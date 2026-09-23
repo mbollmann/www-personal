@@ -5,7 +5,7 @@ description: Poster wall and other exciting stuff.
 menu:
   main:
     weight: 90
-date: "2019-05-06"
+date: "2026-09-23"
 ---
 
 ### Poster Wall
@@ -21,6 +21,7 @@ Because it's nice to be reminded of past achievements.  (Also, to see how crappy
 <a href="/pub/poster-deeplo-2018.pdf"><img src="/img/preview-poster-deeplo-2018.pdf.jpg-1.jpg" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Multi-task learning for historical text normalization (2018)"></a>
 <a href="/pub/poster-naacl2019.pdf" class="landscape"><img src="/img/preview-poster-naacl2019.jpg-1.jpg" data-bs-toggle="tooltip" data-bs-placement="bottom" title="A Large-Scale Comparison of Historical Text Normalization Systems (2019)"></a>
 <a href="/pub/poster-deeplo-2019.pdf"><img src="/img/preview-poster-deeplo-2019-1.jpg" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Few-shot and zero-shot learning for historical text normalization (2019)"></a>
+<a href="/pub/2023.nlposs-1.10.Poster.pdf" class="landscape"><img src="/img/preview-poster-nlposs-1.10.jpg-1.jpg" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Two Decades of the ACL Anthology (2023)"></a>
 </div>
 
 <!--

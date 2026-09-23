@@ -1,13 +1,18 @@
 ---
 Title: Projects
 description: Links to software, datasets, and other resources on historical text normalization, morphological representations, and natural language generation.
-date: "2019-05-06"
+date: "2026-09-23"
 menu:
   main:
-    weight: 40
+    weight: 59
 ---
 
 ## Projects
+
+<p class="alert alert-danger">
+This page is rather outdated. For the time being, please refer to my <a class="alert-link" href="/publications">list of publications</a> for more recent work.
+</p>
+
 
 An overview of projects I worked on, with pointers to software, datasets, and
 other associated resources.

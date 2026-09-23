@@ -1,7 +1,7 @@
 ---
 Title: CV
 description: My research experience, educational background, and more.
-date: "2020-12-01"
+date: "2026-09-23"
 menu:
   main:
     weight: 20

@@ -2,7 +2,7 @@
 Title: Impressum
 description: Legal information in accordance with § 5 TMG (required by German law).
 layout: impressum
-date: "2019-05-06"
+date: "2016-09-23"
 ---
 
 ## Impressum · Legal Disclosure
@@ -13,16 +13,16 @@ date: "2019-05-06"
 <p>
 Marcel Bollmann<br />
 Kunskapslänken 92 lgh 1102<br />
-58328 Linköping<br />
+58326 Linköping<br />
 Sweden
 </p>
 </address>
 
 ### Kontakt · Contact
 
-<i class="fas fa-fw fa-envelope"></i> [legal@bollmann.me](mailto:legal@bollmann.me) \\
-<i class="fas fa-fw fa-phone"></i> +46 13 28 1572
-<i class="fas fa-fw fa-home"></i> [marcel.bollmann.me](http://marcel.bollmann.me/)
+<i class="fas fa-fw fa-envelope"></i> [legal@bollmann.me](mailto:legal@bollmann.me)<br />
+<i class="fas fa-fw fa-phone"></i> +46 13 28 1572<br />
+<i class="fas fa-fw fa-home"></i> [marcel.bollmann.me](http://marcel.bollmann.me/)<br />
 
 ### Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV ·<br />Person responsible for content in accordance with § 55 Abs. 2 RStV
 
@@ -30,7 +30,7 @@ Sweden
 <p>
 Marcel Bollmann<br />
 Kunskapslänken 92 lgh 1102<br />
-58328 Linköping<br />
+58326 Linköping<br />
 Sweden
 </p>
 </address>
