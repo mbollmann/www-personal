@@ -13,11 +13,11 @@
     <link rel="shortcut icon" type="image/png" sizes="96x96" href="{{ "favicon-96x96.png" | relURL }}" />
     <link rel="shortcut icon" type="image/png" sizes="16x16" href="{{ "favicon-16x16.png" | relURL }}" />
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
     {{ $style := resources.Get "css/main.scss" | toCSS | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}" media="screen" />
-    <link rel="stylesheet" href="https://fonts.bunny.net/css?family=Lato:400,700,400italic|Fira+Sans:700" />
-    <link rel="stylesheet" href="https://fonts.bunny.net/css?family=Montserrat+Subrayada:400&text=Marcel%20Bollmann" />
+    <link rel="stylesheet" href="//fonts.bunny.net/css?family=Lato:400,700,400italic|Fira+Sans:700" />
+    <link rel="stylesheet" href="//fonts.bunny.net/css?family=Montserrat+Subrayada:400&text=Marcel%20Bollmann" />
 
     <meta name="description" property="og:description" content="{{ .Description }}">
     <meta property="og:url" content="{{ .Permalink }}">
@@ -47,8 +47,8 @@
     {{ block "footer" . }}{{ partialCached "footer.html" . }}{{ end }}
 
     <!-- JavaScript used by Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/a39409ea46.js" crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="//kit.fontawesome.com/a39409ea46.js" crossorigin="anonymous"></script>
     {{ block "javascript" . }}{{ end }}
   </body>
 </html>
