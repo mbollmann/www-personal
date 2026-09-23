@@ -15,6 +15,7 @@ website: website/public/index.html
 
 website/public/index.html: $(websources) website/data/bibliography.yaml cv/cv.pdf
 	cd website/ && hugo -e $(HUGO_ENV) --minify --cleanDestinationDir
+	cp cv/cv.pdf website/public/
 
 website/data/bibliography.yaml: $(bibsources) pyproject.toml bin/process_bibtex.py
 	uv run python bin/process_bibtex.py
