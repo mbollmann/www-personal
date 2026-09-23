@@ -1,6 +1,6 @@
 {{ $key := .Get 0 }}
 {{ $opts := .Get 1 }}
-{{- with index $.Site.Data.bibliography $key }}
+{{- with index hugo.Data.bibliography $key }}
 <div class="bibitem{{ if in $opts "muted" }} text-body-tertiary{{ end }}">
   {{ .html | safeHTML }}
   {{- if not (in $opts "nobib") }}

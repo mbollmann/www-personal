@@ -1,5 +1,5 @@
 baseURL = "https://marcel.bollmann.me/"
-languageCode = "en-us"
+locale = "en-gb"
 title = "Marcel Bollmann"
 disableKinds = ["taxonomy", "term"]
 
