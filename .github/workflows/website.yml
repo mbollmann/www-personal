@@ -1,0 +1,97 @@
+name: Website
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on:
+      labels: ubuntu-latest-m
+    concurrency:
+      group: build-${{ github.ref }}
+      cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+    env:
+      HAYAGRIVA_VERSION: 0.10.1
+      HUGO_VERSION: 0.160.0
+      TYPST_VERSION: 0.14.2
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      # Installing things
+      - name: Install uv
+        uses: astral-sh/setup-uv@v10.1.0
+
+      - name: Install Typst
+        uses: typst-community/setup-typst@v5
+        with:
+          typst-version: $${ env.TYPST_VERSION }}
+
+      - name: Cache Hayagriva
+        id: cache-hayagriva
+        uses: actions/cache@v6
+        with:
+          path: ~/.cargo/bin/hayagriva
+          key: hayagriva-${{ runner.os }}-${{ env.HAYAGRIVA_VERSION }}
+
+      - name: Install Hayagriva
+        if: steps.cache-hayagriva.outputs.cache-hit != 'true'
+        run: cargo install hayagriva --version "$HAYAGRIVA_VERSION" --features cli --locked
+
+      - name: Install Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: ${{ env.HUGO_VERSION }}
+
+      # Build
+      - name: Build website
+        run: make all
+
+      # If we're going to deploy, store artifact
+      - name: Upload site artifact
+        if: github.repository == 'mbollmann/www-personal' && github.event_name != 'pull_request'
+        uses: actions/upload-artifact@v7
+        with:
+          name: site
+          path: website/public/
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 1
+
+  deploy:
+    needs: build
+    if: github.repository == 'mbollmann/www-personal' && github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    runs-on:
+      labels: ubuntu-latest-m
+    environment: production
+    concurrency:
+      group: production
+      cancel-in-progress: false
+    steps:
+      - name: Download site artifact
+        uses: actions/download-artifact@v8
+        with:
+          name: site
+          path: website/public/
+
+      - name: Set up SSH
+        run: |
+          install -m 700 -d ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          echo "${{ secrets.SSH_KNOWN_HOSTS }}" > ~/.ssh/known_hosts
+
+      - name: Deploy
+        run: |
+          rsync -rlvz --delete --chmod=D755,F644 \
+            -e "ssh -i ~/.ssh/deploy_key" \
+            website/public/ \
+            "${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}:/"
