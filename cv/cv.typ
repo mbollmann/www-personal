@@ -304,8 +304,7 @@
   #pad(top: .5em,
     text(size: 0.8em)[
       I am a researcher and teacher in computational linguistics~(CL) and natural language processing~(NLP), with a background in linguistics.
-      My research interests revolve around NLP for lesser-resourced languages, incl. multilingual models, tokenization, and interpretability.
-      I am also interested in NLP applications within the digital humanities or computational social sciences.
+      My research interests revolve around multilingual NLP, evaluation and interpretability, and NLP applications. I am interested in analysing and improving models for lesser-resourced languages, and in studying how linguistic phenomena interact with language technology. I also have an interest in applying NLP technology to problems within the digital humanities (e.g. historical documents) or computational social sciences.
     ]
   )
 
