@@ -14,9 +14,6 @@ website:
 serve: website
     hugo server
 
-# Upload the website to the server
-[working-directory: 'website']
-upload: website
-    find public/ -type d -exec chmod a+rx {} \;
-    find public/ -type f -exec chmod a+r {} \;
-    rsync -rvP --delete public/* uberspace:html/
+# Fetch the latest Anthology BibTeX
+fetch-anthology-bib:
+	uv run python bin/fetch_anthology_bib.py
