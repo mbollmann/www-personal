@@ -17,13 +17,15 @@ Options:
   -h, --help          Display this helpful text.
 """
 
-from docopt import docopt
 import logging
 import os
+import sys
 from pathlib import Path
-from rich.logging import RichHandler
-from yabibf import BibTeX, CiteprocFormatter, NameDecorator, LinkTitleDecorator
+
 import yaml
+from docopt import docopt
+from rich.logging import RichHandler
+from yabibf import BibTeX, CiteprocFormatter, LinkTitleDecorator, NameDecorator
 
 
 def load_names_list(namefile: str) -> list[str]:
@@ -53,8 +55,7 @@ def main(args):
 
     highlight_names = load_names_list(args["--names"])
     log.debug(
-        f"Found {(n := len(highlight_names))} name{'' if n == 1 else 's'} "
-        "to highlight."
+        f"Found {(n := len(highlight_names))} name{'' if n == 1 else 's'} to highlight."
     )
 
     style = str(args["--style"])
@@ -95,4 +96,4 @@ if __name__ == "__main__":
         format="%(message)s", datefmt="[%X]", level=log_level, handlers=[handler]
     )
 
-    exit(main(args))
+    sys.exit(main(args))

@@ -1,0 +1,19 @@
+repos:
+- repo: https://github.com/astral-sh/ruff-pre-commit
+  rev: v0.16.8
+  hooks:
+    - id: ruff-check
+      name: ruff-check
+      types: [file, python]
+      args: ['--config', 'pyproject.toml', '--fix', '--show-fixes']
+
+    - id: ruff-format
+      name: ruff-format
+      types: [file, python]
+      args: ['--config', 'pyproject.toml']
+
+- repo: https://github.com/astral-sh/uv-pre-commit
+  # uv version.
+  rev: 0.12.18
+  hooks:
+    - id: uv-lock

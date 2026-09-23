@@ -11,15 +11,15 @@ Options:
   -h, --help          Display this helpful text.
 """
 
+import logging
+import os
+import warnings
+
+import rich
 from acl_anthology import Anthology
 from acl_anthology.exceptions import NameSpecResolutionWarning
 from acl_anthology.utils import setup_rich_logging
 from docopt import docopt
-
-import logging
-import os
-import rich
-import warnings
 
 if __name__ == "__main__":
     args = docopt(__doc__)
