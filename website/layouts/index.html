@@ -1,96 +1,32 @@
 {{ define "main" }}
-<div>
-  <img src="{{ "/img/mmb2.png" | relURL }}" alt="Marcel Bollmann (Picture by Jönköping University)" class="mx-2 mx-md-4 mt-4 mb-2 shadow profile-pic" />
-  {{ .Content }}
-</div>
-
 <div class="row">
-  <div class="col-md-6 col-lg-8 order-md-1">
-    <div class="card h-100 border-secondary">
-      <div class="card-body">
-        <h5 class="card-title">News</h5>
-        <div class="container__">
-          <div class="row news-row">
-            <div class="col-12 col-lg-2 news-date">2025-01-20</div>
-            <div class="col">
-              <strong>We're hiring a postdoc</strong> within the EU-funded TrustLLM project!  Full-time position, two years, no teaching obligation.  Research areas include language adaptation, modularisation, tokenization, and evaluation for multilingual LLMs.  <a href="https://liu-nlp.ai/postdoc-trustllm-2025/">Read more on our group website.</a>
-            </div>
-          </div>
-          <div class="row news-row">
-            <div class="col-12 col-lg-2 news-date">2024-11-19</div>
-            <div class="col">
-              New pre-print:
-              <ul>
-                <li><b><a href="https://arxiv.org/abs/2411.05527">How Good is Your Wikipedia?</a></b>, with Kushal Tatariya, Artur Kulmizev, Wessel Poelman, Esther Ploeger, Johannes Bjerva, Jiaming Luo, Heather Lent, and Miryam de Lhoneux.</li>
-              </ul>
-            </div>
-          </div>
-          <div class="row news-row">
-            <div class="col-12 col-lg-2 news-date">2023-10-31</div>
-            <div class="col">
-              Two new pre-prints out:
-              <ul>
-                <li><b><a href="https://aclanthology.org/2023.nlposs-1.10">Two Decades of the ACL Anthology: Development, Impact, and Open Challenges</a></b>, with Nathan Schneider, Arne Köhn, and Matt Post. <i>(now presented at the NLP-OSS workshop)</i></li>
-                <li><b><a href="https://doi.org/10.1162/tacl_a_00682">CreoleVal: Multilingual Multitask Benchmarks for Creoles</a></b>, led by Heather Lent & involving an amazing group of co-authors! <i>(now published in TACL)</i></li>
-              </ul>
-            </div>
-          </div>
-          <!--
-          <div class="row news-row">
-            <div class="col-12 col-lg-2 news-date">2023-07-05</div>
-            <div class="col">
-              {{ with .Site.GetPage "/blog/turning-bibtex-into-bibliographies-with-python.md" }}
-              I wrote “<a href="{{ .RelPermalink }}">{{ .Title }}</a>.”
-              {{ end }}
-            </div>
-          </div>
-          <div class="row news-row">
-            <div class="col-12 col-lg-2 news-date">2023-05-05</div>
-            <div class="col">
-              I gave a <a href="https://gu-clasp.github.io/events/seminars/2023-05-05/">seminar talk on “NLP beyond English”</a> at CLASP in Gothenburg.
-            </div>
-          </div>
-          <div class="row news-row">
-            <div class="col-12 col-lg-2 news-date">2023-01-16</div>
-            <div class="col">
-              I joined the <a href="https://www.ida.liu.se/divisions/aiics/nlp/">NLP group at Linköping University</a> as <a href="https://liu.se/en/employee/marbo59">Associate Professor</a>.
-            </div>
-          </div>
-          -->
-        </div>
-
-        <!--
-        <h6 class="card-subtitle mt-4 mb-2 text-muted">January 26, 2021</h6>
-        <p class="card-text">
-          Long paper accepted at EACL 2021 on &ldquo;Error Analysis and the Role of Morphology&rdquo;: <a href="https://github.com/coastalcph/eacl2021-morpherror/blob/main/paper-cameraready.pdf">read the camera-ready here</a>.
-        </p>
-
-        <h6 class="card-subtitle mt-4 mb-2 text-muted">June 5, 2020</h6>
-        <p class="card-text">
-          My ACL&nbsp;2020 paper with Desmond Elliott on &ldquo;forgetting to cite older papers&rdquo; is now online:
-          <a href="https://www.aclweb.org/anthology/2020.acl-main.699/">read the paper</a> or <a href="https://slideslive.com/38929066/on-forgetting-to-cite-older-papers-an-analysis-of-the-acl-anthology">watch the talk</a>!
-        </p>
-        -->
-      </div>
-    </div>
+  <div class="col-lg-9">
+    {{- with resources.Get "img/marbo59.jpg" }}
+    <img src="{{ .RelPermalink }}" alt="Marcel Bollmann" class="d-lg-none float-end ms-3 ms-sm-4 my-2 shadow profile-pic" />
+    {{- end -}}
+    {{ .Content }}
   </div>
 
-  <div class="col-md-6 col-lg-4 order-md-2">
-    <div class="card h-100 border-secondary">
+  <div class="col-lg-3">
+    {{- with resources.Get "img/marbo59.jpg" }}
+    <img src="{{ .RelPermalink }}" alt="Marcel Bollmann" class="d-none d-lg-block mx-auto mb-4 shadow profile-pic" />
+    {{- end }}
+
+    <div class="card border-secondary my-2">
       <div class="card-body">
         <h5 class="card-title">Contact</h5>
         <div class="row">
           <div class="col">
             <address class="card-text">
               <!-- <strong>Online</strong><br /> -->
-              <i class="far fa-fw fa-envelope me-2"></i>marcel.b<span class="d-none">wallabies-are-awesome</span>ollmann<span class="d-none">.@...___@.</span>@liu.se <!-- <span class="ms-2 small"><a href="liu-pgp-key.asc"><i class="fas fa-key"></i> PGP KEY</a></span> --><br />
-              <i class="ai ai-fw ai-semantic-scholar me-2"></i><a href="https://www.semanticscholar.org/author/Marcel-Bollmann/34887843">Semantic Scholar profile</a><br />
-              <i class="fab fa-fw fa-google-scholar me-2"></i><a href="https://scholar.google.com/citations?user=l3pm9QkAAAAJ">Google Scholar profile</a><br />
-              <i class="fab fa-fw fa-bluesky me-2"></i><a href="https://bsky.app/profile/bollmann.me">Bluesky: @bollmann.me</a><br />
+              <i class="far fa-fw fa-envelope me-2"></i>marcel.b<span class="d-none invisible">wallabies-are-awesome</span>ollmann<span class="d-none">.@...___@.</span>@liu.se <!-- <span class="ms-2 small"><a href="liu-pgp-key.asc"><i class="fas fa-key"></i> PGP KEY</a></span> --><br />
+              <i class="ai ai-fw ai-semantic-scholar me-2"></i><a href="https://www.semanticscholar.org/author/Marcel-Bollmann/34887843">Semantic Scholar</a><br />
+              <i class="ai ai-fw ai-google-scholar me-2"></i><a href="https://scholar.google.com/citations?user=l3pm9QkAAAAJ">Google Scholar</a><br />
+              <i class="fab fa-fw fa-bluesky me-2"></i><a href="https://bsky.app/profile/bollmann.me">Bluesky (@marcel.bollmann.me)</a><br />
               <!-- <i class="fab fa-fw fa-twitter me-2"></i><a href="https://twitter.com/mmbollmann">Twitter (@mmbollmann)</a><br /> -->
               <!-- <i class="fab fa-fw fa-mastodon me-2"></i><a rel="me" href="https://sigmoid.social/@mbollmann">@mbollmann@sigmoid.social</a><br /> -->
-              <i class="fab fa-fw fa-github me-2"></i><a href="https://github.com/mbollmann/">GitHub: @mbollmann</a><br />
-              <i class="ai ai-fw ai-orcid me-2"></i><a href="https://orcid.org/0000-0003-2598-8150">ORCID: 0000-0003-2598-8150</a><!-- <br /> -->
+              <i class="fab fa-fw fa-github me-2"></i><a href="https://github.com/mbollmann/">GitHub (@mbollmann)</a><br />
+              <i class="ai ai-fw ai-orcid me-2"></i><a href="https://orcid.org/0000-0003-2598-8150">ORCID (0000-0003-2598-8150)</a><!-- <br /> -->
             </address>
             <address class="card-text">
               <strong>Offline</strong><br />
@@ -98,7 +34,7 @@
               <!-- Department of Computer and Information Science (IDA)<br />
                    Linköping University, Sweden<br/> -->
               <br/>
-              <i class="fas fa-fw fa-phone"></i> +46 13 28 1572
+              <i class="fas fa-fw fa-phone"></i> +46 (0)13 28-1572
               <!--
               <a href="http://www.diku.dk/english/">Datalogisk Institut</a><br />
               University of Copenhagen<br />

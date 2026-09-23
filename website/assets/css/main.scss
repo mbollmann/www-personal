@@ -113,13 +113,27 @@ body {
 }
 
 .profile-pic {
-    aspect-ratio: .75 !important;
     object-fit: cover !important;
     object-position: center;
-    border-radius: 8% !important;
-    width: 40vw !important;
-    max-width: 200px !important;
-    float: right;
+
+    // smallest display: upright & rectangular
+    aspect-ratio: .75;
+    border-radius: 8%;
+    width: 40vw;
+    max-width: 150px;
+    @media (min-width: 768px) {
+        // from medium onwards: circular
+        aspect-ratio: 1;
+        border-radius: 50%;
+        max-width: 200px;
+    }
+    @media (min-width: 992px) {
+        width: 100%;
+        max-width: 300px;
+    }
+    @media (min-width: 1200px) {
+        width: 85%;
+    }
 }
 
 $color-cv-border: #C3D6E3;

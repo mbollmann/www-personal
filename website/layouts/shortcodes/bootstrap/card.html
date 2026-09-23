@@ -1,0 +1,9 @@
+{{ $title := .Get 0 }}
+{{ $subtitle := .Get 1 }}
+<div class="card border-secondary bg-light my-2">
+  <div class="card-body">
+    <h5 class="card-title">{{- $title -}}</h5>
+    {{- with $subtitle }}<h6 class="card-subtitle mb-2 text-body-secondary">{{ . }}</h6>{{- end -}}
+    {{ .Inner }}
+  </div>
+</div>
