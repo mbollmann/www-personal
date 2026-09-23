@@ -12,8 +12,7 @@ permissions:
 
 jobs:
   build:
-    runs-on:
-      labels: ubuntu-latest-m
+    runs-on: ubuntu-latest
     concurrency:
       group: build-${{ github.ref }}
       cancel-in-progress: ${{ github.event_name == 'pull_request' }}
@@ -69,8 +68,7 @@ jobs:
   deploy:
     needs: build
     if: github.repository == 'mbollmann/www-personal' && github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
-    runs-on:
-      labels: ubuntu-latest-m
+    runs-on: ubuntu-latest
     environment: production
     concurrency:
       group: production
