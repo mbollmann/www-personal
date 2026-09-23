@@ -32,7 +32,7 @@ jobs:
       - name: Install Typst
         uses: typst-community/setup-typst@v5
         with:
-          typst-version: $${ env.TYPST_VERSION }}
+          typst-version: $${{ env.TYPST_VERSION }}
 
       - name: Cache Hayagriva
         id: cache-hayagriva
