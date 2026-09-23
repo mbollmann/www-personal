@@ -17,9 +17,7 @@ jobs:
       group: build-${{ github.ref }}
       cancel-in-progress: ${{ github.event_name == 'pull_request' }}
     env:
-      HAYAGRIVA_VERSION: 0.10.1
-      HUGO_VERSION: 0.160.0
-      TYPST_VERSION: 0.14.2
+      HUGO_VERSION: 0.166.0
     steps:
       - uses: actions/checkout@v7
         with:
@@ -29,30 +27,15 @@ jobs:
       - name: Install uv
         uses: astral-sh/setup-uv@v10.1.0
 
-      - name: Install Typst
-        uses: typst-community/setup-typst@v5
-        with:
-          typst-version: ${{ env.TYPST_VERSION }}
-
-      - name: Cache Hayagriva
-        id: cache-hayagriva
-        uses: actions/cache@v6
-        with:
-          path: ~/.cargo/bin/hayagriva
-          key: hayagriva-${{ runner.os }}-${{ env.HAYAGRIVA_VERSION }}
-
-      - name: Install Hayagriva
-        if: steps.cache-hayagriva.outputs.cache-hit != 'true'
-        run: cargo install hayagriva --version "$HAYAGRIVA_VERSION" --features cli --locked
-
       - name: Install Hugo
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: ${{ env.HUGO_VERSION }}
+          extended: true
 
-      # Build
+      # Build website, never rebuilding the CV
       - name: Build website
-        run: make all
+        run: make -o cv/cv.pdf check website
 
       # If we're going to deploy, store artifact
       - name: Upload site artifact
